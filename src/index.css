@@ -1,0 +1,175 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --card: #ffffff;
+  --ring: #7c9082;
+  --input: #ffffff;
+  --muted: #e8e6e1;
+  --accent: #bfc9bb;
+  --border: #e8e6e1;
+  --radius: 0.35rem;
+  --chart-1: #7c9082;
+  --chart-2: #a0aa88;
+  --chart-3: #8b9d83;
+  --chart-4: #6b7280;
+  --chart-5: #e8e6e1;
+  --popover: #ffffff;
+  --primary: #7c9082;
+  --sidebar: #fafaf8;
+  --spacing: 0.23rem;
+  --font-mono: JetBrains Mono, Courier New, monospace;
+  --font-sans: Antic, ui-sans-serif, sans-serif, system-ui;
+  --secondary: #ced4bf;
+  --background: #f8f7f4;
+  --font-serif: Signifier, Georgia, serif;
+  --foreground: #1a1f2e;
+  --destructive: #c73e3a;
+  --shadow-blur: 2px;
+  --shadow-color: #1a1f2e;
+  --sidebar-ring: #7c9082;
+  --shadow-spread: 0px;
+  --letter-spacing: 0em;
+  --shadow-opacity: 0.04;
+  --sidebar-accent: #e8e6e1;
+  --sidebar-border: #e8e6e1;
+  --card-foreground: #1a1f2e;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --sidebar-primary: #7c9082;
+  --muted-foreground: #6b7280;
+  --accent-foreground: #1a1f2e;
+  --popover-foreground: #1a1f2e;
+  --primary-foreground: #ffffff;
+  --sidebar-foreground: #1a1f2e;
+  --secondary-foreground: #1a1f2e;
+  --destructive-foreground: #ffffff;
+  --sidebar-accent-foreground: #1a1f2e;
+  --sidebar-primary-foreground: #ffffff;
+}
+
+.dark {
+  --card: #121212;
+  --ring: #7c9082;
+  --input: #121212;
+  --muted: #1a1a1a;
+  --accent: #36443a;
+  --border: #2a2a2a;
+  --chart-1: #7c9082;
+  --chart-2: #a0aa88;
+  --chart-3: #8b9d83;
+  --chart-4: #6b7280;
+  --chart-5: #5a6b5e;
+  --popover: #121212;
+  --primary: #7c9082;
+  --sidebar: #0f0f0f;
+  --secondary: #1a1a1a;
+  --background: #0a0a0a;
+  --foreground: #f5f5f5;
+  --destructive: #ef4444;
+  --shadow-color: #000000;
+  --sidebar-ring: #7c9082;
+  --sidebar-accent: #1a1a1a;
+  --sidebar-border: #2a2a2a;
+  --card-foreground: #f5f5f5;
+  --sidebar-primary: #7c9082;
+  --muted-foreground: #a0a0a0;
+  --accent-foreground: #f5f5f5;
+  --popover-foreground: #f5f5f5;
+  --primary-foreground: #000000;
+  --sidebar-foreground: #f5f5f5;
+  --secondary-foreground: #f5f5f5;
+  --destructive-foreground: #ffffff;
+  --sidebar-accent-foreground: #f5f5f5;
+  --sidebar-primary-foreground: #ffffff;
+}
+
+@theme inline {
+  --color-card: var(--card);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-radius: var(--radius);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-popover: var(--popover);
+  --color-primary: var(--primary);
+  --color-sidebar: var(--sidebar);
+  --color-spacing: var(--spacing);
+  --color-font-mono: var(--font-mono);
+  --color-font-sans: var(--font-sans);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-font-serif: var(--font-serif);
+  --color-foreground: var(--foreground);
+  --color-destructive: var(--destructive);
+  --color-shadow-blur: var(--shadow-blur);
+  --color-shadow-color: var(--shadow-color);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-shadow-spread: var(--shadow-spread);
+  --color-letter-spacing: var(--letter-spacing);
+  --color-shadow-opacity: var(--shadow-opacity);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-card-foreground: var(--card-foreground);
+  --color-shadow-offset-x: var(--shadow-offset-x);
+  --color-shadow-offset-y: var(--shadow-offset-y);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+}
+
+/* Leaflet map styling tweaks for dark mode look and feel */
+.leaflet-container {
+  background: #0d111c !important;
+}
+
+.leaflet-tile-pane {
+  filter: brightness(0.6) contrast(1.2) saturate(0.8) invert(1) hue-rotate(180deg);
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background-color: #111827 !important;
+  color: #f3f4f6 !important;
+  border: 1px solid #1f2d45 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Smooth flowing pulsation animation for Google Maps active route paths */
+@keyframes google-maps-pulse-flow {
+  0% {
+    stroke-dashoffset: 0;
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: -80;
+    opacity: 0.85;
+  }
+}
+
+/* Target active route polyline SVG paths inside Google Maps dynamically */
+svg path[stroke="#38bdf8" i],
+svg path[stroke="#3b82f6" i],
+svg path[stroke="#0ea5e9" i] {
+  stroke-dasharray: 12, 12;
+  animation: google-maps-pulse-flow 2.2s linear infinite !important;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+

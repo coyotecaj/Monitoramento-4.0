@@ -1,0 +1,153 @@
+{
+  "entities": {
+    "Vehicle": {
+      "title": "Vehicle",
+      "description": "Represents a tracked vehicle in the fleet",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "licensePlate": { "type": "string" },
+        "status": { "type": "string" },
+        "currentLatitude": { "type": "number" },
+        "currentLongitude": { "type": "number" },
+        "speed": { "type": "number" },
+        "ignition": { "type": "boolean" },
+        "driverId": { "type": "string" },
+        "model": { "type": "string" },
+        "lastUpdate": { "type": "string" }
+      },
+      "required": ["id", "licensePlate", "status", "currentLatitude", "currentLongitude", "speed", "ignition"]
+    },
+    "Driver": {
+      "title": "Driver",
+      "description": "Represents a truck driver in the fleet",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "licenseNumber": { "type": "string" },
+        "status": { "type": "string" },
+        "currentVehicleId": { "type": "string" }
+      },
+      "required": ["id", "name", "status"]
+    },
+    "Geofence": {
+      "title": "Geofence",
+      "description": "Represents a circular geofence zone",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "radius": { "type": "number" },
+        "color": { "type": "string" },
+        "active": { "type": "boolean" }
+      },
+      "required": ["id", "name", "latitude", "longitude", "radius"]
+    },
+    "Trip": {
+      "title": "Trip",
+      "description": "Represents a haulage trip assignment",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "vehicleId": { "type": "string" },
+        "driverId": { "type": "string" },
+        "originGeofenceId": { "type": "string" },
+        "destinationGeofenceId": { "type": "string" },
+        "status": { "type": "string" },
+        "startTime": { "type": "string" },
+        "endTime": { "type": "string" },
+        "currentRoute": { "type": "array" },
+        "contractId": { "type": "string" },
+        "loadedVolumeM3": { "type": "number" }
+      },
+      "required": ["id", "vehicleId", "driverId", "originGeofenceId", "destinationGeofenceId", "status"]
+    },
+    "Settings": {
+      "title": "Settings",
+      "description": "Global application configuration and Sascar integration credentials",
+      "type": "object",
+      "properties": {
+        "demoMode": { "type": "boolean" },
+        "sascarUser": { "type": "string" },
+        "sascarPass": { "type": "string" },
+        "lastSyncTime": { "type": "string" },
+        "activeSyncMethod": { "type": "string" },
+        "sascarIdToPlateMap": { "type": "object" },
+        "sascarDriverIdToNameMap": { "type": "object" },
+        "sascarVehicleIdToDriverIdMap": { "type": "object" },
+        "manualDriverNamesMap": { "type": "object" }
+      }
+    },
+    "Contract": {
+      "title": "Contract",
+      "description": "Represents a client contract",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "clientName": { "type": "string" },
+        "cnpj": { "type": "string" },
+        "volumeM3": { "type": "number" },
+        "startDate": { "type": "string" },
+        "endDate": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["id", "clientName", "cnpj", "volumeM3", "startDate", "endDate"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "Represents a product/cargo type",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "code": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["id", "name"]
+    },
+    "MaintenanceRecord": {
+      "title": "Maintenance Record",
+      "description": "Represents a maintenance or workshop record for a vehicle",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "vehicleId": { "type": "string" },
+        "date": { "type": "string" },
+        "description": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "vehicleId", "date", "status", "description"]
+    }
+  },
+  "firestore": {
+    "/maintenance/{maintenanceId}": {
+      "schema": "MaintenanceRecord",
+      "description": "Vehicle maintenance records"
+    },
+    "/vehicles/{vehicleId}": {
+      "schema": "Vehicle",
+      "description": "Vehicle tracking collection"
+    },
+    "/drivers/{driverId}": {
+      "schema": "Driver",
+      "description": "Driver directory"
+    },
+    "/geofences/{geofenceId}": {
+      "schema": "Geofence",
+      "description": "Circular geofences"
+    },
+    "/trips/{tripId}": {
+      "schema": "Trip",
+      "description": "Trips history and tracking"
+    },
+    "/settings/{settingsId}": {
+      "schema": "Settings",
+      "description": "Global config"
+    }
+  }
+}

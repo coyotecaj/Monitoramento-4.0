@@ -1,0 +1,8 @@
+{
+  "name": "Monitoramento 4.0",
+  "description": "Sistema completo de gestão de transporte (TMS) com monitoramento em tempo real, geofencing (Haversine), máquina de estados e parser de XML de CT-e.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

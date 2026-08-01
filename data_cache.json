@@ -1,0 +1,5740 @@
+{
+  "vehicles": [
+    {
+      "id": "v1",
+      "currentLongitude": -47.0608,
+      "currentLatitude": -22.9056,
+      "direction": 45,
+      "licensePlate": "BRA3S45",
+      "telemetryTime": "2026-07-22T13:32:30.132Z",
+      "model": "Scania R 450 (Caminhão Trator)",
+      "speed": 0,
+      "driverId": null,
+      "status": "AVAILABLE",
+      "driverName": null,
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.813Z"
+    },
+    {
+      "currentLatitude": -23.5505,
+      "currentLongitude": -46.6333,
+      "direction": 180,
+      "id": "v2",
+      "licensePlate": "JKS2F19",
+      "speed": 0,
+      "model": "Volvo FH 540 (Caminhão Trator)",
+      "telemetryTime": "2026-07-22T13:32:30.132Z",
+      "driverName": null,
+      "status": "AVAILABLE",
+      "driverId": null,
+      "manualLocation": "São Paulo - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.826Z"
+    },
+    {
+      "status": "BLOCKED",
+      "driverId": null,
+      "driverName": null,
+      "telemetryTime": "2026-07-22T13:32:30.132Z",
+      "speed": 0,
+      "model": "Mercedes-Benz Actros (Caminhão Trator)",
+      "licensePlate": "REB-8A90",
+      "id": "v3",
+      "currentLongitude": -49.2671,
+      "currentLatitude": -25.429,
+      "direction": 270,
+      "manualLocation": "Curitiba - PR",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.826Z"
+    },
+    {
+      "currentLatitude": -22.9056,
+      "maintenanceExpectedDate": null,
+      "licensePlate": "QRB5C55",
+      "model": "Veículo Sascar",
+      "speed": 0,
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "maintenanceStartDate": "2026-07-21T13:58:05.956Z",
+      "driverName": null,
+      "driverId": null,
+      "status": "MAINTENANCE",
+      "currentLongitude": -47.0608,
+      "direction": 0,
+      "maintenanceReason": "Filtros",
+      "id": "real_1161590",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.826Z"
+    },
+    {
+      "licensePlate": "PPU6G90",
+      "maintenanceExpectedDate": null,
+      "currentLatitude": -22.9056,
+      "driverId": "3895944",
+      "status": "AVAILABLE",
+      "driverName": "MESSIAS MILTON BERMOND",
+      "maintenanceStartDate": null,
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "model": "Veículo Sascar",
+      "speed": 0,
+      "maintenanceReason": null,
+      "id": "real_1192863",
+      "direction": 0,
+      "currentLongitude": -47.0608,
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.826Z"
+    },
+    {
+      "licensePlate": "PPI5331",
+      "currentLongitude": -45.7887616,
+      "direction": 305,
+      "currentLatitude": -19.7653808,
+      "id": "real_1200380",
+      "driverName": "ROBSON MARQUES DA SILVA",
+      "status": "EN_ROUTE",
+      "driverId": "3940219",
+      "speed": 53,
+      "model": "Luz/MG",
+      "telemetryTime": "2026-07-23T17:04:44.000Z",
+      "manualLocation": "Betim - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.826Z"
+    },
+    {
+      "driverName": null,
+      "status": "AVAILABLE",
+      "driverId": null,
+      "speed": 0,
+      "model": "Jaguaquara/BA",
+      "telemetryTime": "2026-07-23T16:57:49.000Z",
+      "licensePlate": "PPX5E02",
+      "currentLongitude": -40.0934656,
+      "currentLatitude": -13.629824,
+      "direction": 3,
+      "id": "real_1203126",
+      "manualLocation": "Irajuba - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "status": "EN_ROUTE",
+      "driverId": "3866399",
+      "driverName": "ALVARO  PESSANHA BIAZINI",
+      "id": "real_1230796",
+      "currentLatitude": -22.9056,
+      "direction": 0,
+      "currentLongitude": -47.0608,
+      "licensePlate": "MQT6873",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "id": "real_1266221",
+      "currentLongitude": -40.258347,
+      "currentLatitude": -20.2118193,
+      "direction": 0,
+      "licensePlate": "QRB5C75",
+      "telemetryTime": "2026-07-23T17:01:02.000Z",
+      "speed": 0,
+      "model": "Serra/ES",
+      "status": "AVAILABLE",
+      "driverId": "3910478",
+      "driverName": "MATERSON SOUZA SANTOS",
+      "manualLocation": "Serra - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "QRG6G48",
+      "currentLatitude": -18.8772958,
+      "currentLongitude": -48.3136553,
+      "direction": 202,
+      "id": "real_1347567",
+      "driverName": "ANDRE FERNANDES VAZ",
+      "status": "EN_ROUTE",
+      "driverId": "d_1784814343874",
+      "speed": 43,
+      "model": "Uberlandia/MG",
+      "telemetryTime": "2026-07-23T17:04:21.000Z",
+      "manualLocation": "Córrego Danta - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "telemetryTime": "2026-07-23T17:05:53.000Z",
+      "speed": 0,
+      "model": "Sao Francisco do Conde/BA",
+      "status": "AVAILABLE",
+      "driverId": "2632962",
+      "maintenanceStartDate": null,
+      "driverName": "CHARLES FERREIRA",
+      "id": "real_1365932",
+      "maintenanceReason": null,
+      "currentLongitude": -38.585216,
+      "direction": 289,
+      "currentLatitude": -12.7058312,
+      "licensePlate": "TOK8J01",
+      "maintenanceExpectedDate": null,
+      "manualLocation": "Candeias - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "PPI5D87",
+      "currentLongitude": -47.0608,
+      "currentLatitude": -22.9056,
+      "direction": 0,
+      "id": "real_1386095",
+      "driverName": "ITAMAR FERREIRA DOS SANTOS",
+      "status": "AVAILABLE",
+      "driverId": "3598048",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "PPT4E95",
+      "direction": 0,
+      "currentLongitude": -47.0608,
+      "currentLatitude": -22.9056,
+      "id": "real_1386096",
+      "driverName": "MESSIAS MILTON BERMOND",
+      "status": "AVAILABLE",
+      "driverId": "3895944",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "driverName": null,
+      "status": "AVAILABLE",
+      "driverId": null,
+      "currentLongitude": -47.0608,
+      "direction": 0,
+      "currentLatitude": -22.9056,
+      "id": "real_1466559",
+      "licensePlate": "ODA-0824",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "status": "BLOCKED",
+      "driverId": "3946531",
+      "driverName": "CARLOS ROBERTO FRANCELINO DE JESUS",
+      "telemetryTime": "2026-07-23T17:02:18.000Z",
+      "speed": 71,
+      "model": "Ribeirao das Neves/MG",
+      "licensePlate": "RBB4H01",
+      "id": "real_1525432",
+      "direction": 142,
+      "currentLongitude": -44.1223845,
+      "currentLatitude": -19.7759103,
+      "manualLocation": "Sete Lagoas - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "driverId": "3910478",
+      "status": "AVAILABLE",
+      "driverName": "MATERSON SOUZA SANTOS",
+      "telemetryTime": "2026-07-23T17:01:03.000Z",
+      "model": "Curvelo/MG",
+      "speed": 0,
+      "licensePlate": "RBB4H00",
+      "id": "real_1525433",
+      "direction": 347,
+      "currentLatitude": -19.1521896,
+      "currentLongitude": -44.5384241,
+      "manualLocation": "Sete Lagoas - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "driverName": "WAGNER",
+      "driverId": "3627062",
+      "status": "AVAILABLE",
+      "model": "Pirai/RJ",
+      "speed": 0,
+      "telemetryTime": "2026-07-23T17:05:48.000Z",
+      "licensePlate": "RBF0I75",
+      "currentLongitude": -43.8363281,
+      "currentLatitude": -22.6546428,
+      "direction": 184,
+      "id": "real_1588815",
+      "manualLocation": "Duque de Caxias - RJ",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "speed": 52,
+      "model": "Viana/ES",
+      "telemetryTime": "2026-07-23T16:57:40.000Z",
+      "maintenanceStartDate": "2026-07-21T16:53:12.784Z",
+      "driverName": "MARCIO HENRIQUE DA SILVA CYPRIANO",
+      "status": "EN_ROUTE",
+      "driverId": "3835599",
+      "direction": 297,
+      "currentLongitude": -40.4904628,
+      "maintenanceReason": "Manutenção",
+      "id": "real_1612888",
+      "currentLatitude": -20.3916846,
+      "maintenanceExpectedDate": null,
+      "licensePlate": "RQM6J17",
+      "manualLocation": "Cariacica - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "speed": 56,
+      "model": "Colatina/ES",
+      "telemetryTime": "2026-07-23T11:07:07.000Z",
+      "driverName": "FELIPE GABLER",
+      "status": "EN_ROUTE",
+      "driverId": "3895944",
+      "currentLatitude": -19.5242593,
+      "currentLongitude": -40.672187,
+      "direction": 65,
+      "id": "real_1702228",
+      "licensePlate": "RQQ1A08",
+      "manualLocation": "Colatina - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "id": "real_1705380",
+      "direction": 356,
+      "currentLatitude": -20.273779,
+      "currentLongitude": -41.7794493,
+      "licensePlate": "FYN6H57",
+      "telemetryTime": "2026-07-23T17:02:03.000Z",
+      "speed": 45,
+      "model": "Martins Soares/MG",
+      "status": "EN_ROUTE",
+      "driverId": "3939519",
+      "driverName": "GUILHERME CRISTIAN LOPES DO COUTO",
+      "manualLocation": "Serra - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "model": "Veículo Sascar",
+      "speed": 0,
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "driverName": null,
+      "driverId": null,
+      "status": "AVAILABLE",
+      "direction": 0,
+      "currentLatitude": -22.9056,
+      "currentLongitude": -47.0608,
+      "id": "real_1712175",
+      "licensePlate": "RQQ9E33",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "driverName": "MARCIO HENRIQUE DA SILVA CYPRIANO",
+      "maintenanceStartDate": "2026-07-21T17:42:08.861Z",
+      "driverId": "3835599",
+      "status": "EN_ROUTE",
+      "model": "Uberlandia/MG",
+      "speed": 41,
+      "telemetryTime": "2026-07-23T17:05:54.000Z",
+      "currentLongitude": -48.3159744,
+      "direction": 198,
+      "id": "real_1779240",
+      "maintenanceReason": "PROBLEMA NO CATALISADOR",
+      "maintenanceExpectedDate": null,
+      "licensePlate": "RBH2B20",
+      "currentLatitude": -18.8832912,
+      "manualLocation": "Córrego Danta - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "id": "real_1785018",
+      "currentLatitude": -17.2319733,
+      "direction": 43,
+      "currentLongitude": -49.2328361,
+      "licensePlate": "RBH5J88",
+      "telemetryTime": "2026-07-23T17:05:16.000Z",
+      "model": "Professor Jamil/GO",
+      "speed": 75,
+      "driverId": "3893777",
+      "status": "EN_ROUTE",
+      "driverName": "DJAIR DIAS DA SILVA",
+      "manualLocation": "Uberlândia - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "telemetryTime": "2026-07-23T17:01:02.000Z",
+      "speed": 0,
+      "model": "Santos/SP",
+      "status": "BLOCKED",
+      "driverId": "3866506",
+      "driverName": "MARCOS PAULO",
+      "id": "real_1799865",
+      "direction": 313,
+      "currentLongitude": -46.3079836,
+      "currentLatitude": -23.9037928,
+      "licensePlate": "SFP3A37",
+      "manualLocation": "Taubaté - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "visibleOnMap": false,
+      "licensePlate": "NVT9989",
+      "direction": 170,
+      "currentLongitude": -49.1983098,
+      "currentLatitude": -17.5739611,
+      "id": "real_1814076",
+      "driverName": null,
+      "driverId": null,
+      "status": "EN_ROUTE",
+      "model": "Morrinhos/GO",
+      "speed": 85,
+      "telemetryTime": "2026-07-23T17:04:46.000Z",
+      "manualLocation": "Trindade - GO",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "RVC6J75",
+      "currentLatitude": -14.7663215,
+      "currentLongitude": -40.707291,
+      "direction": 47,
+      "id": "real_1884446",
+      "driverName": "WAGNER TEIXEIRA",
+      "driverId": "3648377",
+      "status": "BLOCKED",
+      "model": "Vitoria da Conquista/BA",
+      "speed": 0,
+      "telemetryTime": "2026-07-23T17:06:38.000Z",
+      "manualLocation": "Vitória da Conquista - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "id": "real_1887660",
+      "currentLatitude": -22.9056,
+      "currentLongitude": -47.0608,
+      "direction": 0,
+      "licensePlate": "JBE5D79",
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "model": "Veículo Sascar",
+      "speed": 0,
+      "driverId": "3895944",
+      "status": "AVAILABLE",
+      "driverName": "MESSIAS MILTON BERMOND",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "status": "AVAILABLE",
+      "driverId": "3675513",
+      "driverName": "SANZIO LIMA LEONARDO",
+      "id": "real_1909382",
+      "currentLatitude": -22.9056,
+      "direction": 0,
+      "currentLongitude": -47.0608,
+      "licensePlate": "SFT7F30",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "direction": 4,
+      "currentLatitude": -15.3278208,
+      "currentLongitude": -41.1556608,
+      "id": "real_1924700",
+      "licensePlate": "SFP2C44",
+      "speed": 72,
+      "model": "Vitoria da Conquista/BA",
+      "telemetryTime": "2026-07-23T16:53:34.000Z",
+      "driverName": "LUDIO BASTOS DE ALMEIDA",
+      "status": "EN_ROUTE",
+      "driverId": "3942488",
+      "manualLocation": "Nova Itarana - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "RBD5B23",
+      "id": "real_1951816",
+      "direction": 0,
+      "currentLatitude": -22.9056,
+      "currentLongitude": -47.0608,
+      "status": "AVAILABLE",
+      "driverId": "3895944",
+      "driverName": "MESSIAS MILTON BERMOND",
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "SHE3J04",
+      "id": "real_1954714",
+      "currentLongitude": -40.1074428,
+      "currentLatitude": -13.8584313,
+      "direction": 242,
+      "status": "AVAILABLE",
+      "driverId": "3893777",
+      "driverName": "AGAILSON",
+      "telemetryTime": "2026-07-23T17:05:30.000Z",
+      "speed": 0,
+      "model": "Jequie/BA",
+      "manualLocation": "Jequié - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "SHI1A40",
+      "currentLongitude": -47.0608,
+      "currentLatitude": -22.9056,
+      "direction": 0,
+      "id": "real_1954716",
+      "driverName": "KERVIN JESUS ZERPA CASTILLO",
+      "status": "AVAILABLE",
+      "driverId": "3936744",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "driverId": "3895944",
+      "status": "AVAILABLE",
+      "driverName": "JOÃO LEMOS",
+      "telemetryTime": "2026-07-18T19:42:41.779Z",
+      "model": "Veículo Sascar",
+      "speed": 0,
+      "licensePlate": "RVE4F03",
+      "id": "real_1958211",
+      "currentLongitude": -47.0608,
+      "direction": 0,
+      "currentLatitude": -22.9056,
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "licensePlate": "RQO4A51",
+      "id": "real_1989273",
+      "direction": 275,
+      "currentLatitude": -20.2122653,
+      "currentLongitude": -40.2581313,
+      "status": "AVAILABLE",
+      "driverId": "3808485",
+      "driverName": "SANZIO LEONARDO",
+      "telemetryTime": "2026-07-23T11:01:17.000Z",
+      "speed": 0,
+      "model": "Serra/ES",
+      "manualLocation": "Serra - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "id": "real_1989820",
+      "currentLongitude": -40.2580906,
+      "currentLatitude": -20.2122705,
+      "direction": 0,
+      "licensePlate": "RQO6C64",
+      "telemetryTime": "2026-07-21T10:12:01.000Z",
+      "speed": 0,
+      "model": "Serra/ES",
+      "status": "AVAILABLE",
+      "driverId": "3656721",
+      "driverName": "VALTER TOME",
+      "manualLocation": "Serra - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.827Z"
+    },
+    {
+      "status": "AVAILABLE",
+      "driverId": null,
+      "driverName": null,
+      "telemetryTime": "2026-07-18T19:42:41.779Z",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "licensePlate": "RQO5C81",
+      "id": "real_1989821",
+      "currentLatitude": -22.9056,
+      "currentLongitude": -47.0608,
+      "direction": 0,
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "telemetryTime": "2026-07-18T19:42:41.779Z",
+      "driverName": null,
+      "status": "AVAILABLE",
+      "driverId": null,
+      "direction": 0,
+      "currentLatitude": -22.9056,
+      "currentLongitude": -47.0608,
+      "id": "real_1990064",
+      "licensePlate": "RBH1E72",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "driverName": "VALDIR",
+      "driverId": "2285056",
+      "status": "EN_ROUTE",
+      "model": "Patrocinio/MG",
+      "speed": 20,
+      "telemetryTime": "2026-07-23T16:55:38.000Z",
+      "licensePlate": "SFC1A92",
+      "direction": 326,
+      "currentLatitude": -19.0514496,
+      "currentLongitude": -46.808976,
+      "id": "real_2010505",
+      "manualLocation": "Betim - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "telemetryTime": "2026-07-23T17:06:38.000Z",
+      "model": "Sao Francisco do Conde/BA",
+      "speed": 0,
+      "driverId": "3895944",
+      "status": "BLOCKED",
+      "driverName": "MESSIAS MILTON BERMOND",
+      "id": "real_2010506",
+      "direction": 190,
+      "currentLongitude": -38.5843013,
+      "currentLatitude": -12.702997,
+      "licensePlate": "SFC1A90",
+      "manualLocation": "Inhambupe - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "id": "real_2010507",
+      "direction": 12,
+      "currentLatitude": -13.8583203,
+      "currentLongitude": -46.1798431,
+      "licensePlate": "SFC1A91",
+      "telemetryTime": "2026-07-23T16:59:39.000Z",
+      "model": "Correntina/BA",
+      "speed": 75,
+      "driverId": "d_1784574899465",
+      "status": "EN_ROUTE",
+      "driverName": "FABIO JUNIOR",
+      "manualLocation": "Formosa - GO",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "licensePlate": "SEY9F19",
+      "currentLatitude": -22.9056,
+      "currentLongitude": -47.0608,
+      "direction": 0,
+      "id": "real_2010508",
+      "driverName": null,
+      "driverId": null,
+      "status": "AVAILABLE",
+      "model": "Veículo Sascar",
+      "speed": 0,
+      "telemetryTime": "2026-07-18T19:42:41.779Z",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "driverName": "PAULO ZAMPILI",
+      "status": "EN_ROUTE",
+      "driverId": "3819498",
+      "speed": 37,
+      "model": "Goiania/GO",
+      "telemetryTime": "2026-07-23T17:05:53.000Z",
+      "licensePlate": "SFC1A93",
+      "currentLongitude": -49.2262981,
+      "direction": 283,
+      "currentLatitude": -16.625203,
+      "id": "real_2010509",
+      "manualLocation": "Monte Alegre de Minas - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "currentLatitude": -20.2122573,
+      "maintenanceExpectedDate": null,
+      "licensePlate": "RQQ3H81",
+      "direction": 187,
+      "currentLongitude": -40.2580886,
+      "id": "real_2019077",
+      "maintenanceReason": "Módulo",
+      "speed": 0,
+      "model": "Serra/ES",
+      "telemetryTime": "2026-07-23T17:03:26.000Z",
+      "maintenanceStartDate": "2026-07-21T16:44:43.265Z",
+      "driverName": "PAULO ZAMPILI",
+      "status": "AVAILABLE",
+      "driverId": "3819498",
+      "manualLocation": "Vitória - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "licensePlate": "TCI4J83",
+      "id": "real_2087000",
+      "direction": 233,
+      "currentLongitude": -48.3036291,
+      "currentLatitude": -18.8673755,
+      "status": "EN_ROUTE",
+      "driverId": "3915000",
+      "driverName": "VINICIUS BASTOS RAIMUNDO",
+      "telemetryTime": "2026-07-23T17:04:57.000Z",
+      "speed": 72,
+      "model": "Uberlandia/MG",
+      "manualLocation": "Córrego Danta - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "licensePlate": "TCI4J79",
+      "id": "real_2087001",
+      "direction": 108,
+      "currentLongitude": -38.5851392,
+      "currentLatitude": -12.7034032,
+      "status": "AVAILABLE",
+      "driverId": "3922372",
+      "driverName": "DENERVAL",
+      "telemetryTime": "2026-07-23T17:04:57.000Z",
+      "speed": 0,
+      "model": "Sao Francisco do Conde/BA",
+      "manualLocation": "Inhambupe - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "id": "real_2128821",
+      "direction": 0,
+      "currentLongitude": -47.0608,
+      "currentLatitude": -22.9056,
+      "licensePlate": "RQP0D60",
+      "telemetryTime": "2026-07-18T19:42:41.779Z",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "status": "AVAILABLE",
+      "driverId": "3782577",
+      "driverName": "DOUGLAS DA SILVA ARAUJO",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "id": "real_2135235",
+      "currentLatitude": -12.6086032,
+      "currentLongitude": -38.4929536,
+      "direction": 120,
+      "licensePlate": "SGJ6G09",
+      "telemetryTime": "2026-07-23T17:05:32.000Z",
+      "speed": 0,
+      "model": "Candeias/BA",
+      "status": "AVAILABLE",
+      "driverId": "3895944",
+      "driverName": "SEBASTIAO REINALDO",
+      "manualLocation": "Candeias - BA",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "driverId": "3895944",
+      "status": "EN_ROUTE",
+      "driverName": "ELIAS NASCIMENTO",
+      "telemetryTime": "2026-07-23T17:05:32.000Z",
+      "model": "Barao de Cocais/MG",
+      "speed": 76,
+      "licensePlate": "TOF7C97",
+      "id": "real_2186181",
+      "currentLatitude": -19.8034816,
+      "direction": 292,
+      "currentLongitude": -43.4082016,
+      "manualLocation": "Cachoeiro de Itapemirim - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "licensePlate": "OYH8I17",
+      "currentLatitude": -22.7182624,
+      "direction": 0,
+      "currentLongitude": -47.1449856,
+      "id": "real_2207592",
+      "driverName": "MESSIAS MILTON BERMOND",
+      "status": "AVAILABLE",
+      "driverId": "3895944",
+      "speed": 0,
+      "model": "Paulinia/SP",
+      "telemetryTime": "2026-07-23T17:04:38.000Z",
+      "manualLocation": "Sumaré - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "model": "Ceres/GO",
+      "speed": 67,
+      "telemetryTime": "2026-07-23T17:03:32.000Z",
+      "driverName": "HUMBERTO CEZAR RHEIN",
+      "driverId": "3692872",
+      "status": "EN_ROUTE",
+      "currentLongitude": -49.6148096,
+      "currentLatitude": -15.3256064,
+      "direction": 190,
+      "id": "real_2237555",
+      "licensePlate": "TOL6C25",
+      "manualLocation": "Professor Jamil - GO",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "speed": 0,
+      "model": "Betim/MG",
+      "telemetryTime": "2026-07-23T17:05:45.000Z",
+      "driverName": "NILTON CEZAR MACIEL DOS SANTOS",
+      "status": "AVAILABLE",
+      "driverId": "2285056",
+      "currentLatitude": -19.9619744,
+      "direction": 230,
+      "currentLongitude": -44.1654624,
+      "id": "real_2306828",
+      "licensePlate": "TOI8I88",
+      "manualLocation": "Betim - MG",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "driverName": null,
+      "driverId": null,
+      "status": "AVAILABLE",
+      "model": "Cariacica/ES",
+      "speed": 0,
+      "telemetryTime": "2026-07-23T16:59:03.000Z",
+      "licensePlate": "QRB5C44",
+      "currentLatitude": -20.3007773,
+      "currentLongitude": -40.399184,
+      "direction": 264,
+      "id": "real_805860",
+      "manualLocation": "Cariacica - ES",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "currentLongitude": -47.0608,
+      "currentLatitude": -22.9056,
+      "direction": 0,
+      "id": "real_897902",
+      "licensePlate": "PPN3A01",
+      "speed": 0,
+      "model": "Veículo Sascar",
+      "telemetryTime": "2026-07-18T19:42:41.778Z",
+      "driverName": "RICARDO LUIZ DE CARVALHO",
+      "status": "AVAILABLE",
+      "driverId": "3870255",
+      "manualLocation": "Campinas - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "status": "EN_ROUTE",
+      "driverId": "d_1784575450403",
+      "driverName": "SERGIO OTACILIO",
+      "telemetryTime": "2026-07-20T19:22:56.688Z",
+      "speed": 80,
+      "model": "SIGHRA",
+      "licensePlate": "FZB3H62",
+      "id": "v_1784575376688",
+      "currentLongitude": -46.25191518817326,
+      "direction": 73,
+      "currentLatitude": -23.628953552647104,
+      "manualLocation": "Suzano - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    },
+    {
+      "speed": 45,
+      "model": "SIGHRA",
+      "telemetryTime": "2026-07-23T12:07:44.215Z",
+      "driverName": "GILLIARD",
+      "status": "EN_ROUTE",
+      "driverId": "d_1784652947084",
+      "direction": 188,
+      "currentLongitude": -49.8572413168579,
+      "id": "v_1784652885245",
+      "manualLocation": "Bom Jesus de Goiás - GO",
+      "manualLocationUpdatedAt": "2026-07-23T12:07:44.215Z",
+      "currentLatitude": -17.949567392895226,
+      "licensePlate": "CUF6F40"
+    },
+    {
+      "telemetryTime": "2026-07-21T19:27:41.678Z",
+      "speed": 0,
+      "model": "SIGHA",
+      "status": "MAINTENANCE",
+      "driverId": "d_1784662088530",
+      "maintenanceStartDate": "2026-07-22T13:51:40.911Z",
+      "driverName": "ITALO",
+      "id": "v_1784662061678",
+      "maintenanceReason": "Teste",
+      "direction": 62,
+      "currentLongitude": -47.10473360357684,
+      "currentLatitude": -24.377203616020697,
+      "licensePlate": "RMO2J80",
+      "maintenanceExpectedDate": null,
+      "manualLocation": "Registro - SP",
+      "manualLocationUpdatedAt": "2026-07-23T19:52:49.828Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "d1",
+      "name": "João Silva de Souza",
+      "status": "AVAILABLE",
+      "phone": "(11) 98765-4321",
+      "cpf": "123.456.789-00",
+      "licenseNumber": "CNH-E 123456789"
+    },
+    {
+      "id": "d2",
+      "name": "Carlos Eduardo dos Santos",
+      "licenseNumber": "CNH-E 987654321",
+      "cpf": "987.654.321-11",
+      "phone": "(41) 99888-7766",
+      "status": "AVAILABLE"
+    },
+    {
+      "licenseNumber": "CNH-D 456789123",
+      "phone": "(19) 97777-6655",
+      "cpf": "456.789.123-22",
+      "status": "AVAILABLE",
+      "id": "d3",
+      "name": "Ana Paula Rodrigues"
+    },
+    {
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "EN_ROUTE",
+      "id": "2285056",
+      "name": "NILTON CEZAR MACIEL DOS SANTOS"
+    },
+    {
+      "phone": "(11) 9533-2878",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "id": "2632962",
+      "name": "CHARLES FERREIRA"
+    },
+    {
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "status": "AVAILABLE",
+      "id": "2639332",
+      "name": "JOAO GERALDO ALVES"
+    },
+    {
+      "status": "AVAILABLE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "id": "2708267",
+      "name": "FELIPE DE OLIVEIRA GABLER"
+    },
+    {
+      "name": "CARLOS ALESSANDRO NASCIMENTO",
+      "id": "2745697",
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado"
+    },
+    {
+      "status": "AVAILABLE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "id": "2872135",
+      "name": "SEBASTIAO REINALDO SOARES"
+    },
+    {
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "name": "VALDIR COSTA BORGES",
+      "id": "3167200"
+    },
+    {
+      "id": "3526401",
+      "name": "TORRE DE CONTROLE TESTE",
+      "status": "AVAILABLE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "id": "3565922",
+      "name": "MAURO SERGIO LOPES",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "name": "ITAMAR FERREIRA DOS SANTOS",
+      "id": "3598048"
+    },
+    {
+      "status": "AVAILABLE",
+      "phone": "Não Cadastrado",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "name": "DERNEVAL MACIEL",
+      "id": "3623142"
+    },
+    {
+      "licenseNumber": "Sascar Sync",
+      "phone": "Não Cadastrado",
+      "cpf": "Sincronizado",
+      "status": "AVAILABLE",
+      "id": "3623148",
+      "name": "JOÃO PEREIRA LEMOS"
+    },
+    {
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "name": "LINDOMAR PORTO",
+      "id": "3623152"
+    },
+    {
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "name": "JURANDIR FERREIRA",
+      "id": "3627062"
+    },
+    {
+      "name": "WAGNER TEIXEIRA",
+      "id": "3648377",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "3649326",
+      "name": "LEYDIANE DE ABREU",
+      "status": "EN_ROUTE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "id": "3654651",
+      "name": "JOSE LUIZ FERNANDES",
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado"
+    },
+    {
+      "status": "AVAILABLE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "id": "3656721",
+      "name": "VALTER TOME"
+    },
+    {
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "id": "3656980",
+      "name": "JEAN CHARLES"
+    },
+    {
+      "id": "3675513",
+      "name": "SANZIO LIMA LEONARDO",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "3692872",
+      "name": "HUMBERTO CEZAR RHEIN",
+      "status": "EN_ROUTE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "name": "AFONSO RONALDO",
+      "id": "3701406",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "status": "AVAILABLE",
+      "name": "SERGIO JOSE DA SILVA",
+      "id": "3744757"
+    },
+    {
+      "id": "3753494",
+      "name": "ELIAS DO NASCIMENTO ROCHA",
+      "status": "AVAILABLE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "name": "DOUGLAS DA SILVA ARAUJO",
+      "id": "3782577",
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado"
+    },
+    {
+      "id": "3808485",
+      "name": "BRUNO RIBEIRO",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "status": "EN_ROUTE"
+    },
+    {
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "EN_ROUTE",
+      "name": "SERGIO OTACILIO",
+      "id": "3818110"
+    },
+    {
+      "status": "EN_ROUTE",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "id": "3819498",
+      "name": "PAULO ZAMPILI"
+    },
+    {
+      "id": "3827974",
+      "name": "SAMUEL RAMOS",
+      "status": "AVAILABLE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "name": "MARCIO HENRIQUE DA SILVA CYPRIANO",
+      "id": "3835599",
+      "licenseNumber": "Sascar Sync",
+      "phone": "(21) 9795-5615",
+      "cpf": "Sincronizado",
+      "status": "EN_ROUTE"
+    },
+    {
+      "id": "3865550",
+      "name": "GEOVANE FERREIRA CAMPOS",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "status": "AVAILABLE"
+    },
+    {
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "status": "AVAILABLE",
+      "name": "MAURICIO JORGE MELO",
+      "id": "3866029"
+    },
+    {
+      "id": "3866399",
+      "name": "ALVARO  PESSANHA BIAZINI",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "EN_ROUTE"
+    },
+    {
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "id": "3866506",
+      "name": "MARCOS PAULO GONCALVES CARNEIRO"
+    },
+    {
+      "id": "3867869",
+      "name": "FELIPE MOCO PRATA",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "3868163",
+      "name": "ANDRE  CUNHA DOS SANTOS",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "name": "RICARDO LUIZ DE CARVALHO",
+      "id": "3870255"
+    },
+    {
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "name": "JOSELISON LUIZ MOREIRA",
+      "id": "3871081"
+    },
+    {
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "status": "AVAILABLE",
+      "id": "3871648",
+      "name": "LUIZ ANTONIO ROZA"
+    },
+    {
+      "id": "3877966",
+      "name": "EDSON FLORENCIO DA SILVA",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "name": "EDINILSON PEREIRA DOS SANTOS",
+      "id": "3893244",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "3893777",
+      "name": "DJAIR DIAS DA SILVA",
+      "status": "EN_ROUTE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "status": "AVAILABLE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "name": "RICARDO CABRAL MACHADO DOS SANTOS",
+      "id": "3894161"
+    },
+    {
+      "id": "3895944",
+      "name": "MESSIAS MILTON BERMOND",
+      "status": "EN_ROUTE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "name": "DENIS VICENTE SIQUEIRA",
+      "id": "3895947",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "3897606",
+      "name": "ANDRE ALVES DA SILVA",
+      "status": "AVAILABLE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "name": "GELSON MENDONCA",
+      "id": "3897724"
+    },
+    {
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "id": "3898255",
+      "name": "CARLOS ALEXANDRE CYPRIANO DE SOUZA"
+    },
+    {
+      "name": "FELIPE CONSTANTINO DE MELO",
+      "id": "3898650",
+      "status": "AVAILABLE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "name": "MARCO ANTONIO GASPAR",
+      "id": "3906174",
+      "status": "AVAILABLE",
+      "phone": "(21) 9858-7595",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "id": "3908538",
+      "name": "CLAUDIO HENRIQUE FARIA FERNANDES",
+      "status": "AVAILABLE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "id": "3908855",
+      "name": "MARCELO ALVES DIAS",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "3910476",
+      "name": "SALAZARES GRACIANO CAMPISTA",
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -"
+    },
+    {
+      "name": "MATERSON SOUZA SANTOS",
+      "id": "3910478",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "name": "ADILSON FERREIRA DE MELO",
+      "id": "3914917"
+    },
+    {
+      "status": "EN_ROUTE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "name": "VINICIUS BASTOS RAIMUNDO",
+      "id": "3915000"
+    },
+    {
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "id": "3915558",
+      "name": "ESTEFFANI FREITAS NOGUEIRA CONCEICAO"
+    },
+    {
+      "cpf": "Sincronizado",
+      "phone": "(00) 0000-0000",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "id": "3920306",
+      "name": "GELSON MENDONÇA DA SILVA"
+    },
+    {
+      "id": "3922372",
+      "name": "Rodrigo croce barcelos",
+      "status": "EN_ROUTE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "name": "GIVANILDO ROCHA DE SOUZA",
+      "id": "3923734",
+      "cpf": "Sincronizado",
+      "phone": "(27) 9997-0726",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE"
+    },
+    {
+      "status": "AVAILABLE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "id": "3925362",
+      "name": "Carlos Alberto shiavon"
+    },
+    {
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "id": "3929578",
+      "name": "CARLOS EDUARDO DA SILVA"
+    },
+    {
+      "id": "3936744",
+      "name": "KERVIN JESUS ZERPA CASTILLO",
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "() -"
+    },
+    {
+      "id": "3937669",
+      "name": "IVA BUENO NASCIMENTO",
+      "status": "AVAILABLE",
+      "cpf": "Sincronizado",
+      "phone": "() -",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync",
+      "status": "AVAILABLE",
+      "id": "3939057",
+      "name": "GILMARQUES CASTRO OLIVEIRA"
+    },
+    {
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "id": "3939294",
+      "name": "NATAN MOREIRA DA CRUZ"
+    },
+    {
+      "name": "GUILHERME CRISTIAN LOPES DO COUTO",
+      "id": "3939519",
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "phone": "() -",
+      "cpf": "Sincronizado"
+    },
+    {
+      "name": "ROBSON MARQUES DA SILVA",
+      "id": "3940219",
+      "status": "EN_ROUTE",
+      "phone": "() -",
+      "cpf": "Sincronizado",
+      "licenseNumber": "Sascar Sync"
+    },
+    {
+      "status": "AVAILABLE",
+      "licenseNumber": "Sascar Sync",
+      "cpf": "Sincronizado",
+      "phone": "(27) 3228-0582",
+      "id": "3942488",
+      "name": "LUDIO BASTOS DE ALMEIDA"
+    },
+    {
+      "licenseNumber": "Sascar Sync",
+      "phone": "(37) 915-5875",
+      "cpf": "Sincronizado",
+      "status": "AVAILABLE",
+      "id": "3944165",
+      "name": "GEOVANI DA CONCEICAO COSTA"
+    },
+    {
+      "status": "AVAILABLE",
+      "cpf": "Sincronizado",
+      "phone": "(16) 9926-0324",
+      "licenseNumber": "Sascar Sync",
+      "id": "3946531",
+      "name": "CARLOS ROBERTO FRANCELINO DE JESUS"
+    },
+    {
+      "status": "EN_ROUTE",
+      "phone": "",
+      "cpf": "12345678",
+      "licenseNumber": "CNH-D",
+      "id": "d_1784574899465",
+      "name": "FABIO JUNIOR"
+    },
+    {
+      "id": "d_1784575450403",
+      "name": "SERGIO OTACILIO",
+      "status": "EN_ROUTE",
+      "licenseNumber": "CNH-D",
+      "cpf": "12345678",
+      "phone": ""
+    },
+    {
+      "status": "EN_ROUTE",
+      "phone": "",
+      "cpf": "12345678",
+      "licenseNumber": "CNH-D",
+      "name": "GILLIARD",
+      "id": "d_1784652947084"
+    },
+    {
+      "licenseNumber": "CNH-D",
+      "cpf": "1",
+      "phone": "",
+      "status": "EN_ROUTE",
+      "name": "ITALO",
+      "id": "d_1784662088530"
+    },
+    {
+      "id": "d_1784814343874",
+      "name": "ANDRE FERNANDES VAZ",
+      "licenseNumber": "CNH-D",
+      "phone": "",
+      "cpf": "2",
+      "status": "EN_ROUTE"
+    }
+  ],
+  "geofences": [
+    {
+      "longitude": -38.58095,
+      "icon": "FUEL_BASE",
+      "id": "g_1784458122679",
+      "type": "ORIGIN",
+      "name": "Vibra Energia S.A. (BAMAT)",
+      "latitude": -12.70516,
+      "radius": 2500
+    },
+    {
+      "icon": "FUEL_BASE",
+      "radius": 3650,
+      "type": "DESTINATION",
+      "latitude": -20.25869637510572,
+      "name": "Vibra Energia - BAVIT",
+      "id": "g_1784458157091",
+      "longitude": -40.251833227539066
+    },
+    {
+      "longitude": -49.8572413168579,
+      "icon": "FUEL_BASE",
+      "type": "ORIGIN",
+      "id": "g_1784564532134",
+      "latitude": -17.949567392895226,
+      "name": "Usina Bom Sucesso",
+      "radius": 2350
+    },
+    {
+      "longitude": -38.581,
+      "icon": "FUEL_BASE",
+      "radius": 2500,
+      "type": "DESTINATION",
+      "name": "Vibra Energia S.A. (BAMAT)",
+      "latitude": -12.7052,
+      "id": "g_1784564581774"
+    },
+    {
+      "longitude": -38.813704,
+      "radius": 500,
+      "name": "Posto TOP 10",
+      "id": "g_1784568491805",
+      "type": "WAYPOINT",
+      "latitude": -12.369053,
+      "icon": "GAS_STATION"
+    },
+    {
+      "icon": "TRANSPORT_BASE",
+      "latitude": -20.212596120396437,
+      "id": "g_1784573121028",
+      "type": "WAYPOINT",
+      "name": "Work Transportes",
+      "radius": 300,
+      "longitude": -40.25763979759217
+    },
+    {
+      "longitude": -49.731857,
+      "icon": "FUEL_BASE",
+      "id": "g_1784812076591",
+      "latitude": -15.348122,
+      "name": "USINA CRV",
+      "type": "ORIGIN",
+      "radius": 600
+    },
+    {
+      "longitude": -50.43270035075684,
+      "icon": "FUEL_BASE",
+      "radius": 1550,
+      "id": "g_1784812700962",
+      "latitude": -18.54698927373718,
+      "name": "Usina Boa Vista (Grupo São Martinho)",
+      "type": "ORIGIN"
+    }
+  ],
+  "products": [
+    {
+      "code": "PROD-001",
+      "name": "Alimentos Perecíveis",
+      "id": "p1",
+      "description": "Produtos alimentares refrigerados ou secos"
+    },
+    {
+      "id": "p2",
+      "name": "Combustível / Inflamáveis",
+      "description": "Combustível líquido e derivados de petróleo",
+      "code": "PROD-002"
+    },
+    {
+      "name": "Grãos e Agronegócio",
+      "id": "p3",
+      "description": "Carga de soja, milho e outros grãos a granel",
+      "code": "PROD-003"
+    },
+    {
+      "id": "p4",
+      "name": "Eletrônicos de Alto Valor",
+      "description": "Equipamentos eletrônicos com escolta armada",
+      "code": "PROD-004"
+    },
+    {
+      "name": "Carga Geral",
+      "id": "p5",
+      "description": "Diversas mercadorias industriais paletizadas",
+      "code": "PROD-005"
+    },
+    {
+      "code": "PROD-100",
+      "description": "",
+      "id": "p_1784660491393",
+      "name": "HIDRATADO"
+    }
+  ],
+  "trips": [
+    {
+      "contractId": "c_1784812805167",
+      "scheduledDate": "2026-07-23T13:51:48.484Z",
+      "productId": "p_1784660491393",
+      "scheduledLoadingDate": "2026-07-24T12:00",
+      "initialDistanceToOriginKm": 492.11268536750106,
+      "cteInfo": null,
+      "routeHistory": [
+        {
+          "longitude": -45.9131136,
+          "latitude": -19.7111808
+        },
+        {
+          "latitude": -19.7496832,
+          "longitude": -45.9908096
+        },
+        {
+          "longitude": -46.0198912,
+          "latitude": -19.7282144
+        },
+        {
+          "longitude": -45.9967264,
+          "latitude": -19.7475552
+        },
+        {
+          "longitude": -45.994592,
+          "latitude": -19.7483488
+        },
+        {
+          "longitude": -46.0232288,
+          "latitude": -19.7200144
+        },
+        {
+          "longitude": -45.9908064,
+          "latitude": -19.7496752
+        },
+        {
+          "longitude": -45.9891584,
+          "latitude": -19.7492576
+        },
+        {
+          "latitude": -18.862776,
+          "longitude": -48.2972288
+        },
+        {
+          "latitude": -18.8553536,
+          "longitude": -48.2869408
+        },
+        {
+          "latitude": -18.8552864,
+          "longitude": -48.2712064
+        },
+        {
+          "latitude": -18.8604352,
+          "longitude": -48.2592576
+        },
+        {
+          "latitude": -18.8586432,
+          "longitude": -48.2080512
+        },
+        {
+          "latitude": -18.8734032,
+          "longitude": -48.3117216
+        },
+        {
+          "latitude": -18.862496,
+          "longitude": -48.2087328
+        },
+        {
+          "latitude": -18.8832912,
+          "longitude": -48.3159744
+        }
+      ],
+      "transitStarted": true,
+      "productName": "HIDRATADO",
+      "driverId": "3835599",
+      "vehicleId": "real_1779240",
+      "status": "SCHEDULED",
+      "destinationGeofenceId": "g_1784564581774",
+      "tripNumber": "TRIP-1011",
+      "id": "t_1784814708484",
+      "originGeofenceId": "g_1784812700962",
+      "events": [
+        {
+          "timestamp": "2026-07-23T13:51:48.484Z",
+          "type": "STATUS_CHANGE",
+          "latitude": -19.7111808,
+          "id": "e_init_1784814708484",
+          "description": "Viagem criada de Usina Boa Vista (Grupo São Martinho) para Vibra Energia S.A. (BAMAT). Motorista: MARCIO HENRIQUE DA SILVA CYPRIANO, Veículo: RBH2B20.",
+          "longitude": -45.9131136
+        },
+        {
+          "type": "STATUS_CHANGE",
+          "latitude": -19.7111808,
+          "timestamp": "2026-07-23T13:51:50.627Z",
+          "id": "e_manual_transit_1784814710627",
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "longitude": -45.9131136
+        }
+      ]
+    },
+    {
+      "productName": "HIDRATADO",
+      "transitStarted": true,
+      "routeHistory": [
+        {
+          "latitude": -19.9621824,
+          "longitude": -44.1653472
+        },
+        {
+          "latitude": -19.9619744,
+          "longitude": -44.1654624
+        }
+      ],
+      "status": "SCHEDULED",
+      "driverId": "2285056",
+      "vehicleId": "real_2306828",
+      "id": "t_1784814560243",
+      "tripNumber": "TRIP-1010",
+      "destinationGeofenceId": "g_1784564581774",
+      "events": [
+        {
+          "description": "Viagem criada de Usina Boa Vista (Grupo São Martinho) para Vibra Energia S.A. (BAMAT). Motorista: NILTON CEZAR MACIEL DOS SANTOS, Veículo: TOI8I88.",
+          "timestamp": "2026-07-23T13:49:20.243Z",
+          "id": "e_init_1784814560243",
+          "type": "STATUS_CHANGE",
+          "latitude": -19.9621824,
+          "longitude": -44.1653472
+        },
+        {
+          "longitude": -44.1653472,
+          "timestamp": "2026-07-23T13:49:32.881Z",
+          "latitude": -19.9621824,
+          "id": "e_manual_transit_1784814572881",
+          "type": "STATUS_CHANGE",
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário."
+        }
+      ],
+      "originGeofenceId": "g_1784812700962",
+      "productId": "p_1784660491393",
+      "scheduledDate": "2026-07-23T13:49:20.243Z",
+      "contractId": "c_1784812805167",
+      "cteInfo": null,
+      "initialDistanceToOriginKm": 676.4157757888133,
+      "scheduledLoadingDate": "2026-07-24T12:00"
+    },
+    {
+      "cteInfo": null,
+      "initialDistanceToOriginKm": 504.8225498149087,
+      "scheduledLoadingDate": "2026-07-24T12:00",
+      "scheduledDate": "2026-07-23T13:48:08.262Z",
+      "productId": "p_1784660491393",
+      "contractId": "c_1784812805167",
+      "id": "t_1784814488262",
+      "tripNumber": "TRIP-1009",
+      "destinationGeofenceId": "g_1784564581774",
+      "events": [
+        {
+          "longitude": -45.801259,
+          "latitude": -19.7604185,
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-23T13:48:08.262Z",
+          "id": "e_init_1784814488262",
+          "description": "Viagem criada de Usina Boa Vista (Grupo São Martinho) para Vibra Energia S.A. (BAMAT). Motorista: VINICIUS BASTOS RAIMUNDO, Veículo: TCI4J83."
+        },
+        {
+          "longitude": -45.801259,
+          "timestamp": "2026-07-23T13:49:31.378Z",
+          "latitude": -19.7604185,
+          "id": "e_manual_transit_1784814571378",
+          "type": "STATUS_CHANGE",
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário."
+        }
+      ],
+      "originGeofenceId": "g_1784812700962",
+      "transitStarted": true,
+      "productName": "HIDRATADO",
+      "routeHistory": [
+        {
+          "longitude": -45.801259,
+          "latitude": -19.7604185
+        },
+        {
+          "longitude": -45.9339264,
+          "latitude": -19.7204992
+        },
+        {
+          "latitude": -19.7568908,
+          "longitude": -45.8173261
+        },
+        {
+          "latitude": -19.7559296,
+          "longitude": -45.8180171
+        },
+        {
+          "longitude": -45.8197348,
+          "latitude": -19.7524481
+        },
+        {
+          "latitude": -19.7465325,
+          "longitude": -45.8243241
+        },
+        {
+          "longitude": -45.8278105,
+          "latitude": -19.7466155
+        },
+        {
+          "latitude": -19.7424301,
+          "longitude": -45.8408571
+        },
+        {
+          "longitude": -45.8439261,
+          "latitude": -19.7412963
+        },
+        {
+          "latitude": -19.7399823,
+          "longitude": -45.847496
+        },
+        {
+          "longitude": -45.8504788,
+          "latitude": -19.7398578
+        },
+        {
+          "longitude": -45.8589038,
+          "latitude": -19.7422345
+        },
+        {
+          "longitude": -45.8594481,
+          "latitude": -19.7419325
+        },
+        {
+          "latitude": -19.7299145,
+          "longitude": -45.8654565
+        },
+        {
+          "latitude": -19.729246,
+          "longitude": -45.8662743
+        },
+        {
+          "longitude": -45.8687141,
+          "latitude": -19.725869
+        },
+        {
+          "latitude": -19.7217488,
+          "longitude": -45.873566
+        },
+        {
+          "longitude": -45.8771343,
+          "latitude": -19.7208233
+        },
+        {
+          "longitude": -45.8781951,
+          "latitude": -19.719172
+        },
+        {
+          "longitude": -45.9146648,
+          "latitude": -19.7102986
+        },
+        {
+          "latitude": -19.707909,
+          "longitude": -45.917795
+        },
+        {
+          "latitude": -19.7079326,
+          "longitude": -45.9194696
+        },
+        {
+          "longitude": -45.920636,
+          "latitude": -19.7074936
+        },
+        {
+          "longitude": -45.9238853,
+          "latitude": -19.7098256
+        },
+        {
+          "latitude": -19.7173668,
+          "longitude": -45.9315708
+        },
+        {
+          "latitude": -19.7257276,
+          "longitude": -45.9359186
+        },
+        {
+          "longitude": -45.9364233,
+          "latitude": -19.733138
+        },
+        {
+          "latitude": -19.7358675,
+          "longitude": -45.9354366
+        },
+        {
+          "longitude": -45.9359723,
+          "latitude": -19.7370778
+        },
+        {
+          "latitude": -19.7389405,
+          "longitude": -45.9369263
+        },
+        {
+          "latitude": -19.7395621,
+          "longitude": -45.9376938
+        },
+        {
+          "longitude": -45.9399806,
+          "latitude": -19.7399473
+        },
+        {
+          "latitude": -19.7282816,
+          "longitude": -46.0198573
+        },
+        {
+          "longitude": -46.0232135,
+          "latitude": -19.7202145
+        },
+        {
+          "latitude": -18.8686253,
+          "longitude": -48.2137393
+        },
+        {
+          "latitude": -18.8679036,
+          "longitude": -48.2135303
+        },
+        {
+          "latitude": -18.8632513,
+          "longitude": -48.2093345
+        },
+        {
+          "latitude": -18.857355,
+          "longitude": -48.2085286
+        },
+        {
+          "latitude": -18.8546606,
+          "longitude": -48.2119125
+        },
+        {
+          "latitude": -18.8539646,
+          "longitude": -48.2263358
+        },
+        {
+          "latitude": -18.8540333,
+          "longitude": -48.2287363
+        },
+        {
+          "latitude": -18.853897,
+          "longitude": -48.2345018
+        },
+        {
+          "latitude": -18.8537778,
+          "longitude": -48.2410663
+        },
+        {
+          "latitude": -18.8557363,
+          "longitude": -48.2483741
+        },
+        {
+          "latitude": -18.8597515,
+          "longitude": -48.2569296
+        },
+        {
+          "latitude": -18.8601058,
+          "longitude": -48.2622665
+        },
+        {
+          "latitude": -18.8533115,
+          "longitude": -48.2748075
+        },
+        {
+          "latitude": -18.8518826,
+          "longitude": -48.281236
+        },
+        {
+          "latitude": -18.8673755,
+          "longitude": -48.3036291
+        }
+      ],
+      "status": "SCHEDULED",
+      "driverId": "3915000",
+      "vehicleId": "real_2087000"
+    },
+    {
+      "contractId": "c_1784812805167",
+      "scheduledDate": "2026-07-23T13:46:47.005Z",
+      "productId": "p_1784660491393",
+      "scheduledLoadingDate": "2026-07-24T12:00",
+      "cteInfo": null,
+      "initialDistanceToOriginKm": 463.1651925064116,
+      "status": "SCHEDULED",
+      "vehicleId": "real_1347567",
+      "driverId": "d_1784814343874",
+      "transitStarted": true,
+      "productName": "HIDRATADO",
+      "routeHistory": [
+        {
+          "latitude": -19.6529033,
+          "longitude": -46.1827013
+        },
+        {
+          "latitude": -18.8601841,
+          "longitude": -48.2619505
+        },
+        {
+          "latitude": -18.8535903,
+          "longitude": -48.2742755
+        },
+        {
+          "latitude": -18.8518745,
+          "longitude": -48.2813093
+        },
+        {
+          "latitude": -18.859684,
+          "longitude": -48.2929235
+        },
+        {
+          "latitude": -18.8602426,
+          "longitude": -48.2940263
+        },
+        {
+          "latitude": -18.8772958,
+          "longitude": -48.3136553
+        }
+      ],
+      "events": [
+        {
+          "latitude": -19.6529033,
+          "id": "e_init_1784814407005",
+          "timestamp": "2026-07-23T13:46:47.005Z",
+          "type": "STATUS_CHANGE",
+          "description": "Viagem criada de Usina Boa Vista (Grupo São Martinho) para Vibra Energia S.A. (BAMAT). Motorista: ANDRE FERNANDES VAZ, Veículo: QRG6G48.",
+          "longitude": -46.1827013
+        },
+        {
+          "longitude": -46.1827013,
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "type": "STATUS_CHANGE",
+          "latitude": -19.6529033,
+          "timestamp": "2026-07-23T13:46:48.834Z",
+          "id": "e_manual_transit_1784814408834"
+        }
+      ],
+      "originGeofenceId": "g_1784812700962",
+      "destinationGeofenceId": "g_1784564581774",
+      "id": "t_1784814407005",
+      "tripNumber": "TRIP-1008"
+    },
+    {
+      "scheduledLoadingDate": "2026-07-24T10:10",
+      "initialDistanceToOriginKm": 420.80673544141746,
+      "cteInfo": null,
+      "contractId": "c_1784811742067",
+      "scheduledDate": "2026-07-23T13:14:44.079Z",
+      "productId": "p_1784660491393",
+      "destinationGeofenceId": "g_1784564581774",
+      "tripNumber": "TRIP-1007",
+      "id": "t_1784812484079",
+      "originGeofenceId": "g_1784812076591",
+      "events": [
+        {
+          "longitude": -48.2540301,
+          "description": "Viagem criada de USINA CRV para Vibra Energia S.A. (BAMAT). Motorista: PAULO ZAMPILI, Veículo: SFC1A93.",
+          "type": "STATUS_CHANGE",
+          "latitude": -18.8591718,
+          "id": "e_init_1784812484079",
+          "timestamp": "2026-07-23T13:14:44.079Z"
+        },
+        {
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-23T13:14:45.647Z",
+          "latitude": -18.8591718,
+          "id": "e_manual_transit_1784812485647",
+          "longitude": -48.2540301
+        }
+      ],
+      "routeHistory": [
+        {
+          "latitude": -18.8591718,
+          "longitude": -48.2540301
+        },
+        {
+          "longitude": -48.259783,
+          "latitude": -18.8759295
+        },
+        {
+          "latitude": -18.8763003,
+          "longitude": -48.2600436
+        },
+        {
+          "longitude": -48.2695445,
+          "latitude": -18.8892318
+        },
+        {
+          "longitude": -48.2793338,
+          "latitude": -18.9030338
+        },
+        {
+          "longitude": -48.2975551,
+          "latitude": -18.9068338
+        },
+        {
+          "longitude": -48.3057763,
+          "latitude": -18.9102125
+        },
+        {
+          "latitude": -18.9054536,
+          "longitude": -48.3227693
+        },
+        {
+          "latitude": -18.9063676,
+          "longitude": -48.3317603
+        },
+        {
+          "longitude": -48.3374735,
+          "latitude": -18.9058135
+        },
+        {
+          "latitude": -18.9009516,
+          "longitude": -48.3570633
+        },
+        {
+          "longitude": -48.3901683,
+          "latitude": -18.896513
+        },
+        {
+          "longitude": -48.3908083,
+          "latitude": -18.8964188
+        },
+        {
+          "longitude": -48.4011835,
+          "latitude": -18.8947435
+        },
+        {
+          "longitude": -48.4053133,
+          "latitude": -18.894361
+        },
+        {
+          "latitude": -18.8941131,
+          "longitude": -48.4070863
+        },
+        {
+          "longitude": -48.4086646,
+          "latitude": -18.8938856
+        },
+        {
+          "latitude": -18.8934866,
+          "longitude": -48.4114198
+        },
+        {
+          "longitude": -48.41221,
+          "latitude": -18.8933751
+        },
+        {
+          "latitude": -18.8931853,
+          "longitude": -48.4133371
+        },
+        {
+          "latitude": -18.8930505,
+          "longitude": -48.4139666
+        },
+        {
+          "longitude": -48.5195776,
+          "latitude": -18.8763136
+        },
+        {
+          "latitude": -18.8945152,
+          "longitude": -48.6541824
+        },
+        {
+          "latitude": -16.6305393,
+          "longitude": -49.2052966
+        },
+        {
+          "latitude": -16.6243053,
+          "longitude": -49.205675
+        },
+        {
+          "latitude": -16.6186766,
+          "longitude": -49.2073333
+        },
+        {
+          "latitude": -16.623341,
+          "longitude": -49.2202726
+        },
+        {
+          "latitude": -16.625203,
+          "longitude": -49.2262981
+        }
+      ],
+      "productName": "HIDRATADO",
+      "transitStarted": true,
+      "vehicleId": "real_2010509",
+      "driverId": "3819498",
+      "status": "SCHEDULED"
+    },
+    {
+      "events": [
+        {
+          "longitude": -47.2997523,
+          "description": "Viagem criada de USINA CRV para Vibra Energia S.A. (BAMAT). Motorista: DJAIR DIAS DA SILVA, Veículo: RBH5J88.",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-23T13:13:41.823Z",
+          "latitude": -18.941889,
+          "id": "e_init_1784812421823"
+        },
+        {
+          "latitude": -18.941889,
+          "id": "e_manual_transit_1784812426245",
+          "timestamp": "2026-07-23T13:13:46.245Z",
+          "type": "STATUS_CHANGE",
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "longitude": -47.2997523
+        }
+      ],
+      "originGeofenceId": "g_1784812076591",
+      "id": "t_1784812421823",
+      "tripNumber": "TRIP-1006",
+      "destinationGeofenceId": "g_1784564581774",
+      "status": "SCHEDULED",
+      "vehicleId": "real_1785018",
+      "driverId": "3893777",
+      "productName": "HIDRATADO",
+      "transitStarted": true,
+      "routeHistory": [
+        {
+          "longitude": -47.2997523,
+          "latitude": -18.941889
+        },
+        {
+          "longitude": -47.3151535,
+          "latitude": -18.936335
+        },
+        {
+          "latitude": -18.9354493,
+          "longitude": -47.3176046
+        },
+        {
+          "latitude": -18.9353115,
+          "longitude": -47.3179856
+        },
+        {
+          "longitude": -47.3334531,
+          "latitude": -18.9255665
+        },
+        {
+          "latitude": -18.9228743,
+          "longitude": -47.3383585
+        },
+        {
+          "longitude": -47.350703,
+          "latitude": -18.9161511
+        },
+        {
+          "longitude": -47.3515951,
+          "latitude": -18.9156935
+        },
+        {
+          "latitude": -18.9154478,
+          "longitude": -47.3521445
+        },
+        {
+          "longitude": -47.6907264,
+          "latitude": -18.9312256
+        },
+        {
+          "latitude": -18.8666624,
+          "longitude": -48.0168448
+        },
+        {
+          "latitude": -17.445826,
+          "longitude": -49.2299655
+        },
+        {
+          "latitude": -17.4391581,
+          "longitude": -49.2313868
+        },
+        {
+          "latitude": -17.4380168,
+          "longitude": -49.2309506
+        },
+        {
+          "latitude": -17.4376588,
+          "longitude": -49.2308088
+        },
+        {
+          "latitude": -17.433686,
+          "longitude": -49.2292465
+        },
+        {
+          "latitude": -17.418132,
+          "longitude": -49.2264045
+        },
+        {
+          "latitude": -17.416953,
+          "longitude": -49.2262051
+        },
+        {
+          "latitude": -17.4133556,
+          "longitude": -49.2255798
+        },
+        {
+          "latitude": -17.4065041,
+          "longitude": -49.224235
+        },
+        {
+          "latitude": -17.4053895,
+          "longitude": -49.223969
+        },
+        {
+          "latitude": -17.396923,
+          "longitude": -49.2235863
+        },
+        {
+          "latitude": -17.385074,
+          "longitude": -49.2340378
+        },
+        {
+          "latitude": -17.384322,
+          "longitude": -49.2349578
+        },
+        {
+          "latitude": -17.396923,
+          "longitude": -49.2235863
+        },
+        {
+          "latitude": -17.385074,
+          "longitude": -49.2340378
+        },
+        {
+          "latitude": -17.384322,
+          "longitude": -49.2349578
+        },
+        {
+          "latitude": -17.3832761,
+          "longitude": -49.2358335
+        },
+        {
+          "latitude": -17.3807913,
+          "longitude": -49.2368458
+        },
+        {
+          "latitude": -17.370725,
+          "longitude": -49.2438218
+        },
+        {
+          "latitude": -17.3675563,
+          "longitude": -49.2454848
+        },
+        {
+          "latitude": -17.3346575,
+          "longitude": -49.2387316
+        },
+        {
+          "latitude": -17.2802166,
+          "longitude": -49.2363086
+        },
+        {
+          "latitude": -17.2495746,
+          "longitude": -49.2415608
+        },
+        {
+          "latitude": -17.2371756,
+          "longitude": -49.2379073
+        },
+        {
+          "latitude": -17.2319733,
+          "longitude": -49.2328361
+        }
+      ],
+      "cteInfo": null,
+      "initialDistanceToOriginKm": 475.8559829768079,
+      "scheduledLoadingDate": "2026-07-24T10:10",
+      "productId": "p_1784660491393",
+      "scheduledDate": "2026-07-23T13:13:41.823Z",
+      "contractId": "c_1784811742067"
+    },
+    {
+      "status": "SCHEDULED",
+      "vehicleId": "real_2237555",
+      "driverId": "3692872",
+      "productName": "HIDRATADO",
+      "transitStarted": true,
+      "routeHistory": [
+        {
+          "latitude": -17.9514736,
+          "longitude": -49.2492
+        },
+        {
+          "longitude": -49.1718304,
+          "latitude": -17.7705648
+        },
+        {
+          "latitude": -17.7854144,
+          "longitude": -49.188496
+        },
+        {
+          "longitude": -49.2056096,
+          "latitude": -17.7998336
+        },
+        {
+          "longitude": -49.1602944,
+          "latitude": -17.751024
+        },
+        {
+          "longitude": -49.212048,
+          "latitude": -17.82132
+        },
+        {
+          "longitude": -49.2183872,
+          "latitude": -17.8435696
+        },
+        {
+          "latitude": -17.8859856,
+          "longitude": -49.2322496
+        },
+        {
+          "longitude": -49.1544832,
+          "latitude": -17.7289936
+        },
+        {
+          "latitude": -17.706848,
+          "longitude": -49.1548768
+        },
+        {
+          "longitude": -49.1590496,
+          "latitude": -17.6855312
+        },
+        {
+          "latitude": -17.6644848,
+          "longitude": -49.1666144
+        },
+        {
+          "longitude": -49.1735456,
+          "latitude": -17.6431184
+        },
+        {
+          "longitude": -49.1774752,
+          "latitude": -17.6274304
+        },
+        {
+          "longitude": -49.1810688,
+          "latitude": -17.6141696
+        },
+        {
+          "longitude": -49.198016,
+          "latitude": -17.5746128
+        },
+        {
+          "longitude": -49.1914432,
+          "latitude": -17.5939152
+        },
+        {
+          "longitude": -49.2047872,
+          "latitude": -17.5534896
+        },
+        {
+          "longitude": -49.2137024,
+          "latitude": -17.532776
+        },
+        {
+          "latitude": -17.5142672,
+          "longitude": -49.2160256
+        },
+        {
+          "longitude": -49.2157792,
+          "latitude": -17.5111328
+        },
+        {
+          "longitude": -49.2117568,
+          "latitude": -17.4901008
+        },
+        {
+          "latitude": -17.4831728,
+          "longitude": -49.2095104
+        },
+        {
+          "latitude": -17.4302128,
+          "longitude": -49.2282624
+        },
+        {
+          "longitude": -49.2314528,
+          "latitude": -17.4392912
+        },
+        {
+          "longitude": -49.2317472,
+          "latitude": -17.4409536
+        },
+        {
+          "longitude": -49.2270688,
+          "latitude": -17.4510368
+        },
+        {
+          "longitude": -49.2165504,
+          "latitude": -17.4708688
+        },
+        {
+          "longitude": -49.224816,
+          "latitude": -17.4088272
+        },
+        {
+          "latitude": -17.3977568,
+          "longitude": -49.2233248
+        },
+        {
+          "latitude": -17.3888928,
+          "longitude": -49.2289664
+        },
+        {
+          "latitude": -17.3722912,
+          "longitude": -49.2419232
+        },
+        {
+          "longitude": -49.2481696,
+          "latitude": -17.3516576
+        },
+        {
+          "latitude": -17.3488848,
+          "longitude": -49.2482304
+        },
+        {
+          "latitude": -17.3463008,
+          "longitude": -49.2480064
+        },
+        {
+          "latitude": -17.335448,
+          "longitude": -49.238704
+        },
+        {
+          "latitude": -17.3337776,
+          "longitude": -49.2387936
+        },
+        {
+          "latitude": -17.3334064,
+          "longitude": -49.2388192
+        },
+        {
+          "longitude": -49.2390848,
+          "latitude": -17.328528
+        },
+        {
+          "longitude": -49.2390624,
+          "latitude": -17.326816
+        },
+        {
+          "longitude": -49.2390144,
+          "latitude": -17.323496
+        },
+        {
+          "longitude": -49.2389792,
+          "latitude": -17.3208816
+        },
+        {
+          "latitude": -17.290832,
+          "longitude": -49.234928
+        },
+        {
+          "longitude": -49.234192,
+          "latitude": -17.296208
+        },
+        {
+          "latitude": -17.2978384,
+          "longitude": -49.2340288
+        },
+        {
+          "longitude": -49.2404224,
+          "latitude": -17.2691328
+        },
+        {
+          "latitude": -17.2605216,
+          "longitude": -49.2411808
+        },
+        {
+          "longitude": -49.241296,
+          "latitude": -17.2589552
+        },
+        {
+          "latitude": -17.2525936,
+          "longitude": -49.2417536
+        },
+        {
+          "latitude": -17.2509728,
+          "longitude": -49.2417056
+        },
+        {
+          "longitude": -49.2415648,
+          "latitude": -17.2473392
+        },
+        {
+          "longitude": -49.2415744,
+          "latitude": -17.2469696
+        },
+        {
+          "latitude": -17.2451088,
+          "longitude": -49.2415008
+        },
+        {
+          "latitude": -15.3233888,
+          "longitude": -49.5798272
+        },
+        {
+          "latitude": -15.3180336,
+          "longitude": -49.5847008
+        },
+        {
+          "latitude": -15.3137616,
+          "longitude": -49.589808
+        },
+        {
+          "latitude": -15.3138768,
+          "longitude": -49.590816
+        },
+        {
+          "latitude": -15.3256064,
+          "longitude": -49.6148096
+        }
+      ],
+      "events": [
+        {
+          "longitude": -49.2492,
+          "description": "Viagem criada de USINA CRV para Vibra Energia S.A. (BAMAT). Motorista: HUMBERTO CEZAR RHEIN, Veículo: TOL6C25.",
+          "timestamp": "2026-07-23T13:12:03.189Z",
+          "latitude": -17.9514736,
+          "id": "e_init_1784812323189",
+          "type": "STATUS_CHANGE"
+        },
+        {
+          "longitude": -49.2492,
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "timestamp": "2026-07-23T13:12:04.695Z",
+          "id": "e_manual_transit_1784812324695",
+          "latitude": -17.9514736,
+          "type": "STATUS_CHANGE"
+        }
+      ],
+      "originGeofenceId": "g_1784812076591",
+      "destinationGeofenceId": "g_1784564581774",
+      "id": "t_1784812323189",
+      "tripNumber": "TRIP-1005",
+      "contractId": "c_1784811742067",
+      "productId": "p_1784660491393",
+      "scheduledDate": "2026-07-23T13:12:03.189Z",
+      "scheduledLoadingDate": "2026-07-23T10:10",
+      "cteInfo": null,
+      "initialDistanceToOriginKm": 294.0096903581619
+    },
+    {
+      "scheduledDate": "2026-07-23T13:11:05.526Z",
+      "productId": "p_1784660491393",
+      "contractId": "c_1784811742067",
+      "cteInfo": null,
+      "initialDistanceToOriginKm": 289.5757086823377,
+      "scheduledLoadingDate": "2026-07-23T10:10",
+      "status": "SCHEDULED",
+      "driverId": "d_1784652947084",
+      "vehicleId": "v_1784652885245",
+      "transitStarted": true,
+      "productName": "HIDRATADO",
+      "routeHistory": [
+        {
+          "latitude": -17.949567392895226,
+          "longitude": -49.8572413168579
+        }
+      ],
+      "events": [
+        {
+          "description": "Viagem criada de USINA CRV para Vibra Energia S.A. (BAMAT). Motorista: GILLIARD, Veículo: CUF6F40.",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-23T13:11:05.526Z",
+          "id": "e_init_1784812265526",
+          "latitude": -17.949567392895226,
+          "longitude": -49.8572413168579
+        },
+        {
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "timestamp": "2026-07-23T13:11:06.901Z",
+          "type": "STATUS_CHANGE",
+          "latitude": -17.949567392895226,
+          "id": "e_manual_transit_1784812266901",
+          "longitude": -49.8572413168579
+        }
+      ],
+      "originGeofenceId": "g_1784812076591",
+      "id": "t_1784812265526",
+      "tripNumber": "TRIP-1004",
+      "destinationGeofenceId": "g_1784564581774"
+    },
+    {
+      "driverId": "d_1784575450403",
+      "vehicleId": "v_1784575376688",
+      "status": "EN_ROUTE",
+      "startDate": "2026-07-23T13:06:24.165Z",
+      "routeHistory": [
+        {
+          "longitude": -46.25191518817326,
+          "latitude": -23.628953552647104
+        }
+      ],
+      "productName": "HIDRATADO",
+      "transitStarted": true,
+      "originGeofenceId": "g_1784564532134",
+      "events": [
+        {
+          "longitude": -46.25191518817326,
+          "description": "Viagem criada de Usina Bom Sucesso para Vibra Energia S.A. (BAMAT). Motorista: SERGIO OTACILIO, Veículo: FZB3H62.",
+          "timestamp": "2026-07-23T13:05:49.610Z",
+          "type": "STATUS_CHANGE",
+          "id": "e_init_1784811949610",
+          "latitude": -23.628953552647104
+        },
+        {
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "latitude": -23.628953552647104,
+          "timestamp": "2026-07-23T13:05:55.911Z",
+          "type": "STATUS_CHANGE",
+          "id": "e_manual_transit_1784811955911",
+          "longitude": -46.25191518817326
+        },
+        {
+          "longitude": -46.25191518817326,
+          "timestamp": "2026-07-23T13:06:24.165Z",
+          "latitude": -23.628953552647104,
+          "type": "STATUS_CHANGE",
+          "id": "e_manual_1784811984165",
+          "description": "Alteração manual de status para: EN_ROUTE"
+        }
+      ],
+      "tripNumber": "TRIP-1003",
+      "id": "t_1784811949610",
+      "destinationGeofenceId": "g_1784564581774",
+      "productId": "p_1784660491393",
+      "scheduledDate": "2026-07-23T13:05:49.610Z",
+      "contractId": "c_1784576677349",
+      "initialDistanceToOriginKm": 734.2445291062479,
+      "cteInfo": null,
+      "scheduledLoadingDate": "2026-07-23T10:02"
+    },
+    {
+      "contractId": "c_1784576677349",
+      "productId": "p_1784660491393",
+      "scheduledDate": "2026-07-20T19:16:52.389Z",
+      "scheduledLoadingDate": "2026-07-21T11:00:00.000Z",
+      "cteInfo": {
+        "chCTe": "355133363740902",
+        "placaVeiculo": "SFC1A91",
+        "destinatario": {
+          "state": "PR",
+          "name": "Vibra Energia S.A. (BAMAT)",
+          "city": "Curitiba",
+          "cnpj": "77888999000188"
+        },
+        "dhEmi": "2026-07-22T18:01:01.133Z",
+        "apoliceSeguro": "APL-98234-82",
+        "motoristaNome": "FABIO JUNIOR",
+        "valorFrete": 49437.08,
+        "remetente": {
+          "name": "Usina Bom Sucesso",
+          "state": "SP",
+          "city": "Campinas",
+          "cnpj": "44555666000100"
+        },
+        "vTPrest": 49437.08,
+        "seguradora": "Porto Seguro",
+        "nCT": "25767",
+        "cfop": "5352",
+        "vRec": 49437.08,
+        "volume": 61.562,
+        "reboquePlacas": [
+          "REB-8A90"
+        ],
+        "serie": "1",
+        "emitente": {
+          "name": "Usina Bom Sucesso",
+          "city": "Campinas",
+          "state": "SP",
+          "cnpj": "00123456000189"
+        },
+        "vCarga": 49437.08,
+        "nProt": "1357967218125",
+        "proPred": "Carga Geral"
+      },
+      "initialDistanceToOriginKm": 1.8417199144634824,
+      "transitStarted": false,
+      "productName": "HIDRATADO",
+      "routeHistory": [
+        {
+          "latitude": -17.937567392895225,
+          "longitude": -49.8452413168579
+        },
+        {
+          "longitude": -49.4763264,
+          "latitude": -17.7342464
+        },
+        {
+          "latitude": -17.6626688,
+          "longitude": -49.4556416
+        },
+        {
+          "latitude": -17.9478856,
+          "longitude": -49.8552033
+        },
+        {
+          "longitude": -49.8551836,
+          "latitude": -17.9481941
+        },
+        {
+          "longitude": -49.8551705,
+          "latitude": -17.9488188
+        },
+        {
+          "longitude": -49.85483,
+          "latitude": -17.9488706
+        },
+        {
+          "longitude": -49.8545391,
+          "latitude": -17.9488755
+        },
+        {
+          "longitude": -49.8545253,
+          "latitude": -17.9491166
+        },
+        {
+          "latitude": -17.9514926,
+          "longitude": -49.8545245
+        },
+        {
+          "latitude": -17.9518405,
+          "longitude": -49.8543185
+        },
+        {
+          "longitude": -49.8528978,
+          "latitude": -17.9515641
+        },
+        {
+          "longitude": -49.8529441,
+          "latitude": -17.9478605
+        },
+        {
+          "latitude": -17.9476023,
+          "longitude": -49.8539413
+        },
+        {
+          "latitude": -17.9478843,
+          "longitude": -49.8540571
+        },
+        {
+          "longitude": -49.8528055,
+          "latitude": -17.950425
+        },
+        {
+          "latitude": -17.949024,
+          "longitude": -49.8528411
+        },
+        {
+          "latitude": -17.9483083,
+          "longitude": -49.854053
+        },
+        {
+          "latitude": -17.9495888,
+          "longitude": -49.8276105
+        },
+        {
+          "longitude": -49.8262726,
+          "latitude": -17.949737
+        },
+        {
+          "longitude": -49.8257071,
+          "latitude": -17.9497996
+        },
+        {
+          "latitude": -17.9505046,
+          "longitude": -49.8194021
+        },
+        {
+          "longitude": -49.8154836,
+          "latitude": -17.9509406
+        },
+        {
+          "latitude": -17.951154,
+          "longitude": -49.813576
+        },
+        {
+          "longitude": -49.8090051,
+          "latitude": -17.9516483
+        },
+        {
+          "latitude": -17.952306,
+          "longitude": -49.8030975
+        },
+        {
+          "longitude": -49.7692658,
+          "latitude": -17.9566385
+        },
+        {
+          "latitude": -17.9539535,
+          "longitude": -49.7884396
+        },
+        {
+          "latitude": -17.9614955,
+          "longitude": -49.7516993
+        },
+        {
+          "longitude": -49.7501136,
+          "latitude": -17.9619416
+        },
+        {
+          "latitude": -17.9622563,
+          "longitude": -49.7489728
+        },
+        {
+          "latitude": -17.9624066,
+          "longitude": -49.7484238
+        },
+        {
+          "longitude": -49.737192,
+          "latitude": -17.9655058
+        },
+        {
+          "latitude": -17.9656556,
+          "longitude": -49.7366398
+        },
+        {
+          "longitude": -49.7295166,
+          "latitude": -17.9676315
+        },
+        {
+          "latitude": -17.9727248,
+          "longitude": -49.7110888
+        },
+        {
+          "latitude": -17.9744785,
+          "longitude": -49.7047288
+        },
+        {
+          "longitude": -49.6927956,
+          "latitude": -17.9777716
+        },
+        {
+          "latitude": -18.000095,
+          "longitude": -49.5977341
+        },
+        {
+          "longitude": -49.5758358,
+          "latitude": -18.0002105
+        },
+        {
+          "longitude": -49.5740806,
+          "latitude": -18.0002341
+        },
+        {
+          "longitude": -49.558619,
+          "latitude": -18.0001156
+        },
+        {
+          "longitude": -49.5582333,
+          "latitude": -18.0001111
+        },
+        {
+          "longitude": -49.553818,
+          "latitude": -18.0000656
+        },
+        {
+          "latitude": -17.8584143,
+          "longitude": -49.5125958
+        },
+        {
+          "latitude": -17.840926,
+          "longitude": -49.5077615
+        },
+        {
+          "longitude": -49.507068,
+          "latitude": -17.8382455
+        },
+        {
+          "longitude": -49.5070196,
+          "latitude": -17.8371571
+        },
+        {
+          "latitude": -17.8366123,
+          "longitude": -49.5070335
+        },
+        {
+          "longitude": -49.507626,
+          "latitude": -17.8200986
+        },
+        {
+          "latitude": -17.8189926,
+          "longitude": -49.5071403
+        },
+        {
+          "latitude": -17.8131773,
+          "longitude": -49.4973888
+        },
+        {
+          "longitude": -49.4930568,
+          "latitude": -17.8075961
+        },
+        {
+          "latitude": -17.8019716,
+          "longitude": -49.4898236
+        },
+        {
+          "longitude": -49.4889158,
+          "latitude": -17.799768
+        },
+        {
+          "longitude": -49.4876675,
+          "latitude": -17.7967453
+        },
+        {
+          "latitude": -17.79124,
+          "longitude": -49.485389
+        },
+        {
+          "latitude": -17.7887535,
+          "longitude": -49.4843693
+        },
+        {
+          "longitude": -49.4823328,
+          "latitude": -17.7838121
+        },
+        {
+          "latitude": -17.7722223,
+          "longitude": -49.476708
+        },
+        {
+          "longitude": -49.4761333,
+          "latitude": -17.771486
+        },
+        {
+          "latitude": -17.7703181,
+          "longitude": -49.4752248
+        },
+        {
+          "longitude": -49.4749658,
+          "latitude": -17.769981
+        },
+        {
+          "longitude": -49.4727856,
+          "latitude": -17.7557358
+        },
+        {
+          "latitude": -17.7524676,
+          "longitude": -49.4730248
+        },
+        {
+          "longitude": -49.4733096,
+          "latitude": -17.7486831
+        },
+        {
+          "longitude": -49.4734591,
+          "latitude": -17.7466618
+        },
+        {
+          "longitude": -49.4739196,
+          "latitude": -17.7408671
+        },
+        {
+          "latitude": -17.7342346,
+          "longitude": -49.4763105
+        },
+        {
+          "latitude": -17.7339608,
+          "longitude": -49.4765423
+        },
+        {
+          "longitude": -49.4795281,
+          "latitude": -17.729354
+        },
+        {
+          "longitude": -49.4825628,
+          "latitude": -17.7246598
+        },
+        {
+          "latitude": -17.711142,
+          "longitude": -49.4827986
+        },
+        {
+          "longitude": -49.4827216,
+          "latitude": -17.7138585
+        },
+        {
+          "latitude": -17.7098343,
+          "longitude": -49.4826991
+        },
+        {
+          "latitude": -17.7062793,
+          "longitude": -49.4801063
+        },
+        {
+          "latitude": -17.7030628,
+          "longitude": -49.4720535
+        },
+        {
+          "longitude": -49.4715095,
+          "latitude": -17.7028891
+        },
+        {
+          "longitude": -49.4637256,
+          "latitude": -17.6980746
+        },
+        {
+          "longitude": -49.4559711,
+          "latitude": -17.691786
+        },
+        {
+          "longitude": -49.4533961,
+          "latitude": -17.6866723
+        },
+        {
+          "longitude": -49.4559403,
+          "latitude": -17.6722081
+        },
+        {
+          "latitude": -17.6598223,
+          "longitude": -49.4540105
+        },
+        {
+          "latitude": -17.6600061,
+          "longitude": -49.4541523
+        },
+        {
+          "latitude": -17.6542745,
+          "longitude": -49.4482993
+        },
+        {
+          "latitude": -17.6539145,
+          "longitude": -49.4479251
+        },
+        {
+          "latitude": -17.648586,
+          "longitude": -49.4423748
+        },
+        {
+          "longitude": -49.4387791,
+          "latitude": -17.6451401
+        },
+        {
+          "latitude": -17.6448896,
+          "longitude": -49.4385171
+        },
+        {
+          "latitude": -17.6186315,
+          "longitude": -49.4234296
+        },
+        {
+          "longitude": -49.4236965,
+          "latitude": -17.61755
+        },
+        {
+          "latitude": -17.6035295,
+          "longitude": -49.424265
+        },
+        {
+          "latitude": -17.5158898,
+          "longitude": -49.4410735
+        },
+        {
+          "longitude": -49.439404,
+          "latitude": -17.5157483
+        },
+        {
+          "longitude": -49.3299456,
+          "latitude": -17.5011328
+        },
+        {
+          "latitude": -17.3070336,
+          "longitude": -49.2364032
+        },
+        {
+          "longitude": -49.2407296,
+          "latitude": -17.2659456
+        },
+        {
+          "latitude": -17.1707904,
+          "longitude": -49.2107776
+        },
+        {
+          "longitude": -49.2214784,
+          "latitude": -17.0208768
+        },
+        {
+          "latitude": -17.503081,
+          "longitude": -49.3477053
+        },
+        {
+          "latitude": -17.5013521,
+          "longitude": -49.3341023
+        },
+        {
+          "longitude": -49.300812,
+          "latitude": -17.5107681
+        },
+        {
+          "latitude": -17.5140541,
+          "longitude": -49.293748
+        },
+        {
+          "latitude": -17.5155626,
+          "longitude": -49.2785523
+        },
+        {
+          "longitude": -49.270561,
+          "latitude": -17.5168131
+        },
+        {
+          "latitude": -17.517126,
+          "longitude": -49.2686775
+        },
+        {
+          "longitude": -49.267921,
+          "latitude": -17.5172516
+        },
+        {
+          "longitude": -49.2662028,
+          "latitude": -17.517526
+        },
+        {
+          "longitude": -49.2654463,
+          "latitude": -17.5176535
+        },
+        {
+          "longitude": -49.2607703,
+          "latitude": -17.5183996
+        },
+        {
+          "longitude": -49.2541231,
+          "latitude": -17.5194525
+        },
+        {
+          "longitude": -49.248268,
+          "latitude": -17.5206108
+        },
+        {
+          "latitude": -17.5239156,
+          "longitude": -49.2366418
+        },
+        {
+          "longitude": -49.2193143,
+          "latitude": -17.5251126
+        },
+        {
+          "longitude": -49.2150083,
+          "latitude": -17.5247418
+        },
+        {
+          "longitude": -49.2155701,
+          "latitude": -17.5090753
+        },
+        {
+          "longitude": -49.2151475,
+          "latitude": -17.5239275
+        },
+        {
+          "longitude": -49.2127836,
+          "latitude": -17.492769
+        },
+        {
+          "longitude": -49.2127146,
+          "latitude": -17.4925968
+        },
+        {
+          "longitude": -49.2094611,
+          "latitude": -17.4836726
+        },
+        {
+          "latitude": -17.4684015,
+          "longitude": -49.2177378
+        },
+        {
+          "latitude": -17.4680663,
+          "longitude": -49.2178993
+        },
+        {
+          "latitude": -17.4670711,
+          "longitude": -49.2183856
+        },
+        {
+          "latitude": -17.4584273,
+          "longitude": -49.2229251
+        },
+        {
+          "longitude": -49.223644,
+          "latitude": -17.4571525
+        },
+        {
+          "longitude": -49.224273,
+          "latitude": -17.4560321
+        },
+        {
+          "latitude": -17.4526235,
+          "longitude": -49.2261651
+        },
+        {
+          "longitude": -49.226612,
+          "latitude": -17.4518151
+        },
+        {
+          "longitude": -49.2271581,
+          "latitude": -17.4508303
+        },
+        {
+          "latitude": -17.4392401,
+          "longitude": -49.2314245
+        },
+        {
+          "longitude": -49.2287625,
+          "latitude": -17.4324465
+        },
+        {
+          "latitude": -17.4245248,
+          "longitude": -49.2274716
+        },
+        {
+          "longitude": -49.2238965,
+          "latitude": -17.404819
+        },
+        {
+          "longitude": -49.2257293,
+          "latitude": -17.3920401
+        },
+        {
+          "latitude": -17.3807135,
+          "longitude": -49.2368473
+        },
+        {
+          "longitude": -49.2266425,
+          "latitude": -17.4196196
+        },
+        {
+          "latitude": -17.373406,
+          "longitude": -49.2400551
+        },
+        {
+          "latitude": -17.3470325,
+          "longitude": -49.2481363
+        },
+        {
+          "longitude": -49.2474956,
+          "latitude": -17.3619996
+        },
+        {
+          "latitude": -17.3365185,
+          "longitude": -49.2387685
+        },
+        {
+          "latitude": -17.318715,
+          "longitude": -49.2389155
+        },
+        {
+          "latitude": -17.3427026,
+          "longitude": -49.2452823
+        },
+        {
+          "longitude": -49.2404358,
+          "latitude": -17.3397438
+        },
+        {
+          "longitude": -49.2388783,
+          "latitude": -17.31697
+        },
+        {
+          "longitude": -49.2390578,
+          "latitude": -17.3288285
+        },
+        {
+          "longitude": -49.2339933,
+          "latitude": -17.2980001
+        },
+        {
+          "longitude": -49.2362266,
+          "latitude": -17.3065003
+        },
+        {
+          "latitude": -17.2861001,
+          "longitude": -49.2353686
+        },
+        {
+          "latitude": -17.2884641,
+          "longitude": -49.2351386
+        },
+        {
+          "longitude": -49.2353686,
+          "latitude": -17.2861001
+        },
+        {
+          "latitude": -17.286254,
+          "longitude": -49.2353838
+        },
+        {
+          "latitude": -17.2861001,
+          "longitude": -49.2353686
+        },
+        {
+          "latitude": -17.1707815,
+          "longitude": -49.2107681
+        },
+        {
+          "latitude": -17.1635078,
+          "longitude": -49.2127911
+        },
+        {
+          "longitude": -49.2128496,
+          "latitude": -17.1633238
+        },
+        {
+          "longitude": -49.2152323,
+          "latitude": -17.1467901
+        },
+        {
+          "latitude": -17.1462408,
+          "longitude": -49.2152188
+        },
+        {
+          "latitude": -17.072438,
+          "longitude": -49.2236635
+        },
+        {
+          "latitude": -17.0655186,
+          "longitude": -49.2248625
+        },
+        {
+          "longitude": -49.2262905,
+          "latitude": -17.0560683
+        },
+        {
+          "longitude": -49.2247866,
+          "latitude": -17.0409551
+        },
+        {
+          "latitude": -17.0220936,
+          "longitude": -49.2216411
+        },
+        {
+          "longitude": -49.2341981,
+          "latitude": -16.966108
+        },
+        {
+          "longitude": -49.236459,
+          "latitude": -16.9628266
+        },
+        {
+          "longitude": -49.2372215,
+          "latitude": -16.9617688
+        },
+        {
+          "latitude": -16.812499,
+          "longitude": -49.2396716
+        },
+        {
+          "latitude": -16.7926076,
+          "longitude": -49.237981
+        },
+        {
+          "longitude": -49.2367378,
+          "latitude": -16.7770765
+        },
+        {
+          "latitude": -16.7732453,
+          "longitude": -49.2377591
+        },
+        {
+          "latitude": -16.7619565,
+          "longitude": -49.2400078
+        },
+        {
+          "latitude": -16.761411,
+          "longitude": -49.2400703
+        },
+        {
+          "longitude": -49.2430288,
+          "latitude": -16.7357775
+        },
+        {
+          "latitude": -16.729326,
+          "longitude": -49.2426358
+        },
+        {
+          "longitude": -49.2346933,
+          "latitude": -16.7147363
+        },
+        {
+          "latitude": -16.6989933,
+          "longitude": -49.2311968
+        },
+        {
+          "longitude": -49.232513,
+          "latitude": -16.6799191
+        },
+        {
+          "latitude": -16.6632223,
+          "longitude": -49.2229331
+        },
+        {
+          "latitude": -16.6491513,
+          "longitude": -49.213714
+        },
+        {
+          "longitude": -49.2083483,
+          "latitude": -16.6421541
+        },
+        {
+          "latitude": -16.6294848,
+          "longitude": -49.2054043
+        },
+        {
+          "longitude": -49.2059498,
+          "latitude": -16.6160755
+        },
+        {
+          "longitude": -49.2040841,
+          "latitude": -16.6059983
+        },
+        {
+          "latitude": -16.589698,
+          "longitude": -49.194629
+        },
+        {
+          "longitude": -49.1620516,
+          "latitude": -16.5768695
+        },
+        {
+          "longitude": -49.1553875,
+          "latitude": -16.5674991
+        },
+        {
+          "longitude": -49.15444,
+          "latitude": -16.5644053
+        },
+        {
+          "latitude": -16.564039,
+          "longitude": -49.1543701
+        },
+        {
+          "longitude": -49.1541783,
+          "latitude": -16.562958
+        },
+        {
+          "longitude": -49.154078,
+          "latitude": -16.5624093
+        },
+        {
+          "latitude": -16.5230223,
+          "longitude": -49.129637
+        },
+        {
+          "longitude": -49.1174846,
+          "latitude": -16.5094175
+        },
+        {
+          "longitude": -49.1072875,
+          "latitude": -16.498812
+        },
+        {
+          "longitude": -49.0887311,
+          "latitude": -16.4806861
+        },
+        {
+          "latitude": -16.4797883,
+          "longitude": -49.0875391
+        },
+        {
+          "longitude": -49.0519911,
+          "latitude": -16.453036
+        },
+        {
+          "longitude": -49.0454193,
+          "latitude": -16.4501948
+        },
+        {
+          "longitude": -49.0306451,
+          "latitude": -16.449791
+        },
+        {
+          "latitude": -16.447237,
+          "longitude": -49.0212125
+        },
+        {
+          "longitude": -49.018881,
+          "latitude": -16.438801
+        },
+        {
+          "latitude": -16.43802,
+          "longitude": -49.0188531
+        },
+        {
+          "longitude": -49.0162185,
+          "latitude": -16.4278673
+        },
+        {
+          "latitude": -16.4146011,
+          "longitude": -49.0077031
+        },
+        {
+          "latitude": -16.3698408,
+          "longitude": -48.9408356
+        },
+        {
+          "latitude": -16.3550296,
+          "longitude": -48.929874
+        },
+        {
+          "longitude": -48.9275216,
+          "latitude": -16.3539943
+        },
+        {
+          "latitude": -16.3487931,
+          "longitude": -48.9090673
+        },
+        {
+          "longitude": -48.9006773,
+          "latitude": -16.3417686
+        },
+        {
+          "longitude": -48.5397716,
+          "latitude": -16.1147103
+        },
+        {
+          "longitude": -48.530708,
+          "latitude": -16.11245
+        },
+        {
+          "longitude": -48.5234773,
+          "latitude": -16.1024075
+        },
+        {
+          "latitude": -16.0985955,
+          "longitude": -48.5221381
+        },
+        {
+          "latitude": -16.0952161,
+          "longitude": -48.5184273
+        },
+        {
+          "longitude": -48.5125028,
+          "latitude": -16.0903495
+        },
+        {
+          "longitude": -48.5042168,
+          "latitude": -16.0896713
+        },
+        {
+          "longitude": -48.4940041,
+          "latitude": -16.0922208
+        },
+        {
+          "latitude": -16.0980188,
+          "longitude": -48.4799835
+        },
+        {
+          "latitude": -16.102036,
+          "longitude": -48.46443
+        },
+        {
+          "longitude": -48.4536308,
+          "latitude": -16.1036746
+        },
+        {
+          "latitude": -16.1096205,
+          "longitude": -48.4473403
+        },
+        {
+          "longitude": -48.4406488,
+          "latitude": -16.1137546
+        },
+        {
+          "longitude": -48.4307316,
+          "latitude": -16.1182883
+        },
+        {
+          "longitude": -48.4140226,
+          "latitude": -16.122038
+        },
+        {
+          "latitude": -16.1186013,
+          "longitude": -48.3986083
+        },
+        {
+          "longitude": -48.386835,
+          "latitude": -16.1144216
+        },
+        {
+          "longitude": -48.3742846,
+          "latitude": -16.1184913
+        },
+        {
+          "longitude": -48.3710995,
+          "latitude": -16.1161431
+        },
+        {
+          "latitude": -16.1086861,
+          "longitude": -48.361466
+        },
+        {
+          "latitude": -16.108632,
+          "longitude": -48.3610873
+        },
+        {
+          "longitude": -48.3597856,
+          "latitude": -16.1088298
+        },
+        {
+          "longitude": -48.3570946,
+          "latitude": -16.1099678
+        },
+        {
+          "latitude": -16.1145111,
+          "longitude": -48.329066
+        },
+        {
+          "longitude": -48.2948571,
+          "latitude": -16.1044818
+        },
+        {
+          "latitude": -16.0933715,
+          "longitude": -48.2803818
+        },
+        {
+          "longitude": -48.2566818,
+          "latitude": -16.0449843
+        },
+        {
+          "longitude": -48.2563483,
+          "latitude": -16.0432893
+        },
+        {
+          "latitude": -16.0183456,
+          "longitude": -48.249253
+        },
+        {
+          "longitude": -48.2485021,
+          "latitude": -16.0165275
+        },
+        {
+          "latitude": -15.9883935,
+          "longitude": -48.2236251
+        },
+        {
+          "latitude": -15.9789555,
+          "longitude": -48.2045595
+        },
+        {
+          "latitude": -15.97634,
+          "longitude": -48.1980068
+        },
+        {
+          "latitude": -15.9761413,
+          "longitude": -48.1967066
+        },
+        {
+          "latitude": -15.975906,
+          "longitude": -48.1952128
+        },
+        {
+          "longitude": -48.1613421,
+          "latitude": -15.9131845
+        },
+        {
+          "longitude": -48.142075,
+          "latitude": -15.9072675
+        },
+        {
+          "longitude": -48.141671,
+          "latitude": -15.9071458
+        },
+        {
+          "latitude": -15.8913653,
+          "longitude": -48.0895763
+        },
+        {
+          "longitude": -48.05546,
+          "latitude": -15.8810336
+        },
+        {
+          "longitude": -48.053506,
+          "latitude": -15.8798275
+        },
+        {
+          "longitude": -48.0450675,
+          "latitude": -15.8744401
+        },
+        {
+          "latitude": -15.8747833,
+          "longitude": -48.0377176
+        },
+        {
+          "longitude": -48.0253811,
+          "latitude": -15.8765531
+        },
+        {
+          "longitude": -48.0177491,
+          "latitude": -15.8776363
+        },
+        {
+          "latitude": -15.877437,
+          "longitude": -48.0003748
+        },
+        {
+          "longitude": -47.9923475,
+          "latitude": -15.8766973
+        },
+        {
+          "latitude": -15.8761335,
+          "longitude": -47.9860491
+        },
+        {
+          "longitude": -47.9770701,
+          "latitude": -15.8725946
+        },
+        {
+          "longitude": -47.9522808,
+          "latitude": -15.8361955
+        },
+        {
+          "longitude": -47.9513345,
+          "latitude": -15.8302333
+        },
+        {
+          "latitude": -15.7702366,
+          "longitude": -47.9354076
+        },
+        {
+          "latitude": -15.7604908,
+          "longitude": -47.9293401
+        },
+        {
+          "longitude": -47.9028756,
+          "latitude": -15.7180701
+        },
+        {
+          "longitude": -47.8923281,
+          "latitude": -15.7074825
+        },
+        {
+          "longitude": -47.8832361,
+          "latitude": -15.7005895
+        },
+        {
+          "longitude": -47.8714673,
+          "latitude": -15.6944658
+        },
+        {
+          "latitude": -15.6912788,
+          "longitude": -47.8651015
+        },
+        {
+          "latitude": -15.6877778,
+          "longitude": -47.8569145
+        },
+        {
+          "longitude": -47.8375341,
+          "latitude": -15.6818731
+        },
+        {
+          "latitude": -15.67958,
+          "longitude": -47.8304258
+        },
+        {
+          "latitude": -15.678382,
+          "longitude": -47.8275335
+        },
+        {
+          "latitude": -15.6772925,
+          "longitude": -47.8258355
+        },
+        {
+          "latitude": -15.672364,
+          "longitude": -47.8186783
+        },
+        {
+          "longitude": -47.8083908,
+          "latitude": -15.6662396
+        },
+        {
+          "latitude": -15.6659276,
+          "longitude": -47.8077066
+        },
+        {
+          "longitude": -47.8014423,
+          "latitude": -15.6629855
+        },
+        {
+          "longitude": -47.7888761,
+          "latitude": -15.6571758
+        },
+        {
+          "longitude": -47.7828491,
+          "latitude": -15.6542076
+        },
+        {
+          "longitude": -47.7442385,
+          "latitude": -15.6365631
+        },
+        {
+          "longitude": -47.7263773,
+          "latitude": -15.6266528
+        },
+        {
+          "longitude": -47.7143845,
+          "latitude": -15.6199395
+        },
+        {
+          "latitude": -15.6114665,
+          "longitude": -47.6991955
+        },
+        {
+          "longitude": -47.6841343,
+          "latitude": -15.6030808
+        },
+        {
+          "latitude": -15.5990598,
+          "longitude": -47.6764856
+        },
+        {
+          "latitude": -15.5952273,
+          "longitude": -47.6674668
+        },
+        {
+          "longitude": -47.6629451,
+          "latitude": -15.594626
+        },
+        {
+          "longitude": -47.6469153,
+          "latitude": -15.5958346
+        },
+        {
+          "latitude": -15.5902741,
+          "longitude": -47.5863208
+        },
+        {
+          "latitude": -15.5866765,
+          "longitude": -47.5738718
+        },
+        {
+          "longitude": -47.5683256,
+          "latitude": -15.5850718
+        },
+        {
+          "longitude": -47.5421881,
+          "latitude": -15.5820433
+        },
+        {
+          "longitude": -47.5362143,
+          "latitude": -15.5819073
+        },
+        {
+          "latitude": -15.581815,
+          "longitude": -47.5082598
+        },
+        {
+          "latitude": -15.5811331,
+          "longitude": -47.5037618
+        },
+        {
+          "latitude": -15.580884,
+          "longitude": -47.5025795
+        },
+        {
+          "longitude": -47.4896923,
+          "latitude": -15.578146
+        },
+        {
+          "longitude": -47.4748175,
+          "latitude": -15.5752705
+        },
+        {
+          "longitude": -47.472328,
+          "latitude": -15.5755998
+        },
+        {
+          "longitude": -47.4653413,
+          "latitude": -15.5780106
+        },
+        {
+          "longitude": -47.4612846,
+          "latitude": -15.5794415
+        },
+        {
+          "latitude": -15.5830596,
+          "longitude": -47.441481
+        },
+        {
+          "latitude": -15.5824903,
+          "longitude": -47.434446
+        },
+        {
+          "latitude": -15.5822211,
+          "longitude": -47.4290643
+        },
+        {
+          "longitude": -47.4141426,
+          "latitude": -15.5808283
+        },
+        {
+          "longitude": -47.4123646,
+          "latitude": -15.5806861
+        },
+        {
+          "longitude": -47.4047531,
+          "latitude": -15.5801756
+        },
+        {
+          "longitude": -47.3908083,
+          "latitude": -15.5789113
+        },
+        {
+          "latitude": -15.5783036,
+          "longitude": -47.381266
+        },
+        {
+          "latitude": -15.580317,
+          "longitude": -47.3748858
+        },
+        {
+          "latitude": -15.5858253,
+          "longitude": -47.3583258
+        },
+        {
+          "longitude": -47.3438743,
+          "latitude": -15.581851
+        },
+        {
+          "longitude": -47.3359283,
+          "latitude": -15.5798221
+        },
+        {
+          "longitude": -47.3279166,
+          "latitude": -15.5743405
+        },
+        {
+          "latitude": -15.5532901,
+          "longitude": -47.3046693
+        },
+        {
+          "latitude": -15.5482395,
+          "longitude": -47.2991208
+        },
+        {
+          "latitude": -13.915418,
+          "longitude": -46.1873185
+        },
+        {
+          "latitude": -13.9121958,
+          "longitude": -46.1868736
+        },
+        {
+          "latitude": -13.9013918,
+          "longitude": -46.1857505
+        },
+        {
+          "latitude": -13.8926878,
+          "longitude": -46.1847718
+        },
+        {
+          "latitude": -13.887408,
+          "longitude": -46.1841726
+        },
+        {
+          "latitude": -13.8814386,
+          "longitude": -46.1834905
+        },
+        {
+          "latitude": -13.8801746,
+          "longitude": -46.1833476
+        },
+        {
+          "latitude": -13.8800386,
+          "longitude": -46.1833325
+        },
+        {
+          "latitude": -13.8730701,
+          "longitude": -46.1825458
+        },
+        {
+          "latitude": -13.8712581,
+          "longitude": -46.1823346
+        },
+        {
+          "latitude": -13.8652848,
+          "longitude": -46.181335
+        },
+        {
+          "latitude": -13.8583203,
+          "longitude": -46.1798431
+        }
+      ],
+      "startDate": "2026-07-22T18:01:01.636Z",
+      "status": "EN_ROUTE",
+      "vehicleId": "real_2010507",
+      "driverId": "d_1784574899465",
+      "destinationGeofenceId": "g_1784564581774",
+      "id": "t_1784575012388",
+      "tripNumber": "TRIP-1003",
+      "events": [
+        {
+          "description": "Simulação reiniciada para status Agendada.",
+          "latitude": -17.937567392895225,
+          "timestamp": "2026-07-22T14:41:13.269Z",
+          "type": "STATUS_CHANGE",
+          "id": "e_reset_1784731273269",
+          "longitude": -49.8452413168579
+        },
+        {
+          "description": "Alteração manual de status para: WAITING_LOADING",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-22T14:41:16.470Z",
+          "latitude": -17.937567392895225,
+          "id": "e_manual_1784731276470",
+          "longitude": -49.8452413168579
+        },
+        {
+          "longitude": -49.8452413168579,
+          "id": "e_manual_1784731278633",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-22T14:41:18.633Z",
+          "latitude": -17.937567392895225,
+          "description": "Alteração manual de status para: EN_ROUTE"
+        },
+        {
+          "longitude": -49.4763264,
+          "id": "evt_geofence_out_1784731451210292",
+          "type": "GEOFENCE_EXIT",
+          "timestamp": "2026-07-22T14:44:11.210Z",
+          "latitude": -17.7342464,
+          "description": "Detectado: Veículo SFC1A91 SAIU da geocerca: Usina Bom Sucesso."
+        },
+        {
+          "longitude": -49.4763264,
+          "id": "evt_geofence_out_1784731534302615",
+          "timestamp": "2026-07-22T14:45:34.302Z",
+          "latitude": -17.7342464,
+          "type": "GEOFENCE_EXIT",
+          "description": "Detectado: Veículo SFC1A91 SAIU da geocerca: Usina Bom Sucesso."
+        },
+        {
+          "longitude": -49.8552033,
+          "timestamp": "2026-07-22T15:12:58.357Z",
+          "latitude": -17.9478856,
+          "id": "evt_geofence_in_1784733178357487",
+          "type": "GEOFENCE_ENTER",
+          "description": "Detectado: Veículo SFC1A91 CRUZOU e ENTROU na geocerca: Usina Bom Sucesso. (Distância atual: 285m)"
+        },
+        {
+          "latitude": -17.9483083,
+          "id": "evt_geofence_in_1784733238895713",
+          "type": "GEOFENCE_ENTER",
+          "timestamp": "2026-07-22T15:13:58.895Z",
+          "description": "Detectado: Veículo SFC1A91 CRUZOU e ENTROU na geocerca: Usina Bom Sucesso. (Distância atual: 365m)",
+          "longitude": -49.854053
+        },
+        {
+          "longitude": -49.6927956,
+          "description": "Detectado: Veículo SFC1A91 SAIU da geocerca: Usina Bom Sucesso.",
+          "timestamp": "2026-07-22T15:17:05.283Z",
+          "latitude": -17.9777716,
+          "id": "evt_geofence_out_1784733425283873",
+          "type": "GEOFENCE_EXIT"
+        },
+        {
+          "description": "Alteração manual de status para: WAITING_LOADING",
+          "timestamp": "2026-07-22T18:00:06.623Z",
+          "type": "STATUS_CHANGE",
+          "latitude": -17.0220936,
+          "id": "e_manual_1784743206623",
+          "longitude": -49.2216411
+        },
+        {
+          "description": "Alteração manual de status para: WAITING_LOADING",
+          "id": "e_manual_1784743209102",
+          "latitude": -17.0220936,
+          "timestamp": "2026-07-22T18:00:09.102Z",
+          "type": "STATUS_CHANGE",
+          "longitude": -49.2216411
+        },
+        {
+          "longitude": -49.2216411,
+          "description": "Alteração manual de status para: EN_ROUTE",
+          "type": "STATUS_CHANGE",
+          "latitude": -17.0220936,
+          "timestamp": "2026-07-22T18:00:10.058Z",
+          "id": "e_manual_1784743210058"
+        },
+        {
+          "longitude": -49.2216411,
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-22T18:00:11.651Z",
+          "latitude": -17.0220936,
+          "id": "e_manual_1784743211651",
+          "description": "Alteração manual de status para: WAITING_LOADING"
+        },
+        {
+          "description": "CT-e Nº 25767 emitido com sucesso e vinculado à viagem. Carga: Carga Geral (R$ 49.437,08). Viagem iniciada em trânsito!",
+          "timestamp": "2026-07-22T18:01:01.636Z",
+          "type": "CTE_UPLOAD",
+          "latitude": -17.0220936,
+          "id": "e_cte_attached_1784743261636",
+          "longitude": -49.2216411
+        }
+      ],
+      "originGeofenceId": "g_1784564532134"
+    },
+    {
+      "vehicleId": "real_1200380",
+      "driverId": "3940219",
+      "status": "DELIVERED",
+      "loadedVolumeM3": 62000,
+      "routeHistory": [
+        {
+          "latitude": -20.221864,
+          "longitude": -40.2711264
+        }
+      ],
+      "transitStarted": true,
+      "productName": "Combustível / Inflamáveis",
+      "startDate": "2026-07-20T17:54:43.907Z",
+      "originGeofenceId": "g_1784564532134",
+      "events": [
+        {
+          "description": "Viagem criada de Usina Bom Sucesso para Vibra Energia S.A. (BAMAT). Motorista: ROBSON MARQUES DA SILVA, Veículo: PPI5331.",
+          "type": "STATUS_CHANGE",
+          "id": "e_init_1784569936204",
+          "timestamp": "2026-07-20T17:52:16.204Z",
+          "latitude": -20.221864,
+          "longitude": -40.2711264
+        },
+        {
+          "longitude": -40.2711264,
+          "id": "e_manual_transit_1784570022263",
+          "timestamp": "2026-07-20T17:53:42.263Z",
+          "latitude": -20.221864,
+          "type": "STATUS_CHANGE",
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário."
+        },
+        {
+          "timestamp": "2026-07-20T17:54:19.320Z",
+          "type": "STATUS_CHANGE",
+          "id": "e_manual_1784570059320",
+          "latitude": -20.221864,
+          "description": "Alteração manual de status para: WAITING_LOADING",
+          "longitude": -40.2711264
+        },
+        {
+          "longitude": -40.2711264,
+          "type": "CTE_UPLOAD",
+          "id": "e_cte_attached_1784570083907",
+          "latitude": -20.221864,
+          "timestamp": "2026-07-20T17:54:43.907Z",
+          "description": "CT-e Nº 48663 emitido com sucesso e vinculado à viagem. Carga: Carga Geral (R$ 29.000,00). Viagem iniciada em trânsito!"
+        },
+        {
+          "longitude": -40.2711264,
+          "timestamp": "2026-07-20T17:54:46.601Z",
+          "latitude": -20.221864,
+          "type": "STATUS_CHANGE",
+          "id": "e_manual_1784570086601",
+          "description": "Alteração manual de status para: WAITING_UNLOADING"
+        },
+        {
+          "longitude": -40.2711264,
+          "latitude": -20.221864,
+          "id": "e_manual_1784570088641",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-20T17:54:48.641Z",
+          "description": "Alteração manual de status para: DELIVERED"
+        },
+        {
+          "longitude": -40.2711264,
+          "latitude": -20.221864,
+          "timestamp": "2026-07-20T17:54:51.274Z",
+          "id": "e_manual_1784570091274",
+          "type": "STATUS_CHANGE",
+          "description": "Alteração manual de status para: DELIVERED"
+        },
+        {
+          "timestamp": "2026-07-20T17:55:09.809Z",
+          "latitude": -20.221864,
+          "id": "e_manual_1784570109809",
+          "type": "STATUS_CHANGE",
+          "description": "Alteração manual de status para: DELIVERED",
+          "longitude": -40.2711264
+        },
+        {
+          "longitude": -40.2711264,
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-20T17:55:10.361Z",
+          "latitude": -20.221864,
+          "id": "e_manual_1784570110361",
+          "description": "Alteração manual de status para: WAITING_UNLOADING"
+        },
+        {
+          "description": "Alteração manual de status para: DELIVERED",
+          "latitude": -20.221864,
+          "timestamp": "2026-07-20T17:55:12.872Z",
+          "type": "STATUS_CHANGE",
+          "id": "e_manual_1784570112872",
+          "longitude": -40.2711264
+        },
+        {
+          "latitude": -20.2219232,
+          "id": "e_manual_1784570149263",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-20T17:55:49.263Z",
+          "description": "Alteração manual de status para: DELIVERED",
+          "longitude": -40.2711168
+        },
+        {
+          "longitude": -40.2711072,
+          "description": "Alteração manual de status para: WAITING_UNLOADING",
+          "latitude": -20.2218336,
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-20T18:01:54.582Z",
+          "id": "e_manual_1784570514582"
+        },
+        {
+          "longitude": -40.2711072,
+          "id": "e_manual_1784570872329",
+          "type": "STATUS_CHANGE",
+          "latitude": -20.2218336,
+          "timestamp": "2026-07-20T18:07:52.329Z",
+          "description": "Alteração manual de status para: DELIVERED"
+        }
+      ],
+      "destinationGeofenceId": "g_1784564581774",
+      "tripNumber": "TRIP-1002",
+      "id": "t_1784569936204",
+      "contractId": "c1",
+      "scheduledDate": "2026-07-20T17:52:16.204Z",
+      "productId": "p2",
+      "scheduledLoadingDate": "2026-07-20T17:51:00.000Z",
+      "initialDistanceToOriginKm": 1039.33529254424,
+      "cteInfo": {
+        "reboquePlacas": [
+          "REB-8A90"
+        ],
+        "serie": "1",
+        "volume": 62000,
+        "vRec": 29000,
+        "nProt": "1351834481554",
+        "proPred": "Carga Geral",
+        "emitente": {
+          "cnpj": "00123456000189",
+          "state": "SP",
+          "city": "Sucesso",
+          "name": "Usina Bom Sucesso"
+        },
+        "vCarga": 29000,
+        "motoristaNome": "ROBSON MARQUES DA SILVA",
+        "apoliceSeguro": "APL-98234-82",
+        "chCTe": "354517164772365570010000486631234567897",
+        "destinatario": {
+          "cnpj": "77888999000188",
+          "state": "PR",
+          "name": "Vibra Energia S.A. (BAMAT)",
+          "city": "S.A."
+        },
+        "dhEmi": "2026-07-20T17:54:43.745Z",
+        "placaVeiculo": "PPI5331",
+        "cfop": "5352",
+        "nCT": "48663",
+        "vTPrest": 29000,
+        "valorFrete": 29000,
+        "remetente": {
+          "name": "Usina Bom Sucesso",
+          "city": "Sucesso",
+          "state": "SP",
+          "cnpj": "44555666000100"
+        },
+        "seguradora": "Porto Seguro"
+      },
+      "deliveryDate": "2026-07-20T18:07:52.329Z"
+    },
+    {
+      "scheduledDate": "2026-07-20T14:26:23.222Z",
+      "cteInfo": {
+        "nCT": "48667",
+        "cfop": "5352",
+        "valorFrete": 29769.86,
+        "remetente": {
+          "city": "S.A.",
+          "name": "Vibra Energia S.A. (BAMAT)",
+          "state": "SP",
+          "cnpj": "44555666000100"
+        },
+        "vTPrest": 29769.86,
+        "seguradora": "Porto Seguro",
+        "apoliceSeguro": "APL-98234-82",
+        "motoristaNome": "NILTON CEZAR MACIEL DOS SANTOS",
+        "chCTe": "354735983354229570010000486671234567897",
+        "placaVeiculo": "TOI8I88",
+        "destinatario": {
+          "name": "Vibra Energia - BAVIT",
+          "city": "-",
+          "state": "PR",
+          "cnpj": "77888999000188"
+        },
+        "dhEmi": "2026-07-20T14:27:05.180Z",
+        "nProt": "1356647294617",
+        "proPred": "Carga Geral",
+        "emitente": {
+          "cnpj": "00123456000189",
+          "city": "S.A.",
+          "name": "Vibra Energia S.A. (BAMAT)",
+          "state": "SP"
+        },
+        "vCarga": 29769.86,
+        "volume": 62000,
+        "reboquePlacas": [
+          "REB-8A90"
+        ],
+        "serie": "1",
+        "vRec": 29769.86
+      },
+      "initialDistanceToOriginKm": 854.9481436025087,
+      "scheduledLoadingDate": "2026-07-17T18:00:00.000Z",
+      "deliveryDate": "2026-07-21T11:22:32.756Z",
+      "status": "DELIVERED",
+      "driverId": "2285056",
+      "vehicleId": "real_2306828",
+      "startDate": "2026-07-20T23:28:25.272Z",
+      "transitStarted": true,
+      "loadedVolumeM3": 62000,
+      "routeHistory": [
+        {
+          "longitude": -40.2618336,
+          "latitude": -20.2233328
+        }
+      ],
+      "events": [
+        {
+          "id": "e_init_1784557583222",
+          "latitude": -20.2233328,
+          "timestamp": "2026-07-20T14:26:23.222Z",
+          "type": "STATUS_CHANGE",
+          "description": "Viagem criada de Vibra Energia S.A. (BAMAT) para Vibra Energia - BAVIT. Motorista: NILTON CEZAR MACIEL DOS SANTOS, Veículo: TOI8I88.",
+          "longitude": -40.2618336
+        },
+        {
+          "longitude": -40.2618336,
+          "description": "Trânsito / Vazio iniciado manualmente pelo usuário.",
+          "latitude": -20.2233328,
+          "id": "e_manual_transit_1784557586451",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-20T14:26:26.451Z"
+        },
+        {
+          "description": "Alteração manual de status para: WAITING_LOADING",
+          "type": "STATUS_CHANGE",
+          "timestamp": "2026-07-20T14:26:30.853Z",
+          "latitude": -20.2233328,
+          "id": "e_manual_1784557590853",
+          "longitude": -40.2618336
+        },
+        {
+          "longitude": -40.2618336,
+          "latitude": -20.2233328,
+          "timestamp": "2026-07-20T14:27:05.319Z",
+          "type": "CTE_UPLOAD",
+          "id": "e_cte_attached_1784557625319",
+          "description": "CT-e Nº 48667 emitido com sucesso e vinculado à viagem. Carga: Carga Geral (R$ 29.769,86). Viagem iniciada em trânsito!"
+        },
+        {
+          "longitude": -40.2689664,
+          "id": "evt_geofence_near_1784557841208179",
+          "latitude": -20.2302416,
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-20T14:30:41.208Z",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4465m)."
+        },
+        {
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4465m).",
+          "id": "evt_geofence_near_1784557846896733",
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-20T14:30:46.896Z",
+          "latitude": -20.2302416,
+          "longitude": -40.2689664
+        },
+        {
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT.",
+          "type": "GEOFENCE_EXIT",
+          "timestamp": "2026-07-20T14:30:49.233Z",
+          "id": "evt_geofence_out_1784557849233602",
+          "latitude": -20.2296864,
+          "longitude": -40.268928
+        },
+        {
+          "longitude": -40.268928,
+          "timestamp": "2026-07-20T14:31:09.295Z",
+          "type": "GEOFENCE_EXIT",
+          "latitude": -20.2296864,
+          "id": "evt_geofence_out_1784557869295766",
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT."
+        },
+        {
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4453m).",
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-20T14:32:29.018Z",
+          "latitude": -20.230088,
+          "id": "evt_geofence_near_1784557949018872",
+          "longitude": -40.2684096
+        },
+        {
+          "timestamp": "2026-07-20T14:33:35.338Z",
+          "type": "GEOFENCE_EXIT",
+          "id": "evt_geofence_out_1784558015338177",
+          "latitude": -20.22888,
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT.",
+          "longitude": -40.2692288
+        },
+        {
+          "type": "GEOFENCE_NEAR",
+          "id": "evt_geofence_near_1784564751995248",
+          "latitude": -20.2300384,
+          "timestamp": "2026-07-20T16:25:51.995Z",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4463m).",
+          "longitude": -40.2685088
+        },
+        {
+          "longitude": -40.2685088,
+          "latitude": -20.2300384,
+          "id": "evt_geofence_near_178456478482932",
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-20T16:26:24.829Z",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4463m)."
+        },
+        {
+          "longitude": -40.2685088,
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4463m).",
+          "timestamp": "2026-07-20T16:27:24.423Z",
+          "type": "GEOFENCE_NEAR",
+          "latitude": -20.2300384,
+          "id": "evt_geofence_near_1784564844423458"
+        },
+        {
+          "timestamp": "2026-07-20T16:30:04.406Z",
+          "latitude": -20.2288896,
+          "type": "GEOFENCE_EXIT",
+          "id": "evt_geofence_out_1784565004406506",
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT.",
+          "longitude": -40.2692992
+        },
+        {
+          "longitude": -40.2677856,
+          "latitude": -20.2295088,
+          "timestamp": "2026-07-20T16:30:49.701Z",
+          "type": "GEOFENCE_NEAR",
+          "id": "evt_geofence_near_1784565049701725",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4480m)."
+        },
+        {
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4454m).",
+          "timestamp": "2026-07-20T16:32:26.942Z",
+          "type": "GEOFENCE_NEAR",
+          "latitude": -20.2300752,
+          "id": "evt_geofence_near_1784565146942480",
+          "longitude": -40.2684128
+        },
+        {
+          "longitude": -40.2692192,
+          "id": "evt_geofence_out_178456516521096",
+          "timestamp": "2026-07-20T16:32:45.210Z",
+          "latitude": -20.228592,
+          "type": "GEOFENCE_EXIT",
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT."
+        },
+        {
+          "longitude": -40.267776,
+          "type": "GEOFENCE_NEAR",
+          "id": "evt_geofence_near_1784565200500796",
+          "timestamp": "2026-07-20T16:33:20.500Z",
+          "latitude": -20.2295136,
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4479m)."
+        },
+        {
+          "longitude": -40.2692896,
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT.",
+          "type": "GEOFENCE_EXIT",
+          "latitude": -20.2288768,
+          "id": "evt_geofence_out_1784565335798451",
+          "timestamp": "2026-07-20T16:35:35.798Z"
+        },
+        {
+          "longitude": -40.2678848,
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT.",
+          "latitude": -20.229232,
+          "timestamp": "2026-07-20T16:36:40.054Z",
+          "type": "GEOFENCE_EXIT",
+          "id": "evt_geofence_out_1784565400054404"
+        },
+        {
+          "longitude": -40.2678848,
+          "description": "Alteração manual de status para: WAITING_LOADING",
+          "latitude": -20.229232,
+          "timestamp": "2026-07-20T16:37:13.774Z",
+          "type": "STATUS_CHANGE",
+          "id": "e_manual_1784565433774"
+        },
+        {
+          "longitude": -40.2678848,
+          "description": "Alteração manual de status para: EN_ROUTE",
+          "type": "STATUS_CHANGE",
+          "latitude": -20.229232,
+          "timestamp": "2026-07-20T16:37:17.027Z",
+          "id": "e_manual_1784565437027"
+        },
+        {
+          "longitude": -40.2678112,
+          "id": "evt_geofence_near_1784565526751742",
+          "type": "GEOFENCE_NEAR",
+          "latitude": -20.2295536,
+          "timestamp": "2026-07-20T16:38:46.751Z",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4477m)."
+        },
+        {
+          "latitude": -20.2300816,
+          "id": "evt_geofence_near_1784565658040264",
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-20T16:40:58.040Z",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4454m).",
+          "longitude": -40.2684128
+        },
+        {
+          "longitude": -40.2687136,
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca e das imediações: Vibra Energia - BAVIT.",
+          "id": "evt_geofence_out_1784565684051882",
+          "latitude": -20.2291248,
+          "type": "GEOFENCE_EXIT",
+          "timestamp": "2026-07-20T16:41:24.051Z"
+        },
+        {
+          "latitude": -20.231064,
+          "timestamp": "2026-07-20T18:29:18.898Z",
+          "type": "GEOFENCE_NEAR",
+          "id": "evt_geofence_near_1784572158898655",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4251m).",
+          "longitude": -40.2661792
+        },
+        {
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 4251m).",
+          "id": "evt_geofence_near_1784572198964580",
+          "latitude": -20.231064,
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-20T18:29:58.964Z",
+          "longitude": -40.2661792
+        },
+        {
+          "latitude": -20.2370816,
+          "type": "GEOFENCE_EXIT",
+          "timestamp": "2026-07-20T18:34:05.204Z",
+          "id": "evt_geofence_out_1784572445204815",
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca: Vibra Energia - BAVIT.",
+          "longitude": -40.2630048
+        },
+        {
+          "longitude": -40.2630048,
+          "id": "evt_geofence_out_1784572574344661",
+          "type": "GEOFENCE_EXIT",
+          "timestamp": "2026-07-20T18:36:14.344Z",
+          "latitude": -20.2370816,
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca: Vibra Energia - BAVIT."
+        },
+        {
+          "longitude": -40.253984,
+          "description": "Detectado: Veículo TOI8I88 CRUZOU e ENTROU na geocerca: Vibra Energia - BAVIT. (Distância atual: 929m)",
+          "id": "evt_geofence_in_178457264173125",
+          "latitude": -20.2589472,
+          "timestamp": "2026-07-20T18:37:21.731Z",
+          "type": "GEOFENCE_ENTER"
+        },
+        {
+          "type": "GEOFENCE_ENTER",
+          "id": "evt_geofence_in_1784572684635529",
+          "timestamp": "2026-07-20T18:38:04.635Z",
+          "latitude": -20.2589472,
+          "description": "Detectado: Veículo TOI8I88 CRUZOU e ENTROU na geocerca: Vibra Energia - BAVIT. (Distância atual: 929m)",
+          "longitude": -40.253984
+        },
+        {
+          "longitude": -40.24832,
+          "id": "evt_geofence_in_1784573556867922",
+          "type": "GEOFENCE_ENTER",
+          "timestamp": "2026-07-20T18:52:36.867Z",
+          "latitude": -20.266848,
+          "description": "Detectado: Veículo TOI8I88 CRUZOU e ENTROU na geocerca: Vibra Energia - BAVIT. (Distância atual: 155m)"
+        },
+        {
+          "id": "evt_geofence_in_178457399473071",
+          "type": "GEOFENCE_ENTER",
+          "timestamp": "2026-07-20T18:59:54.730Z",
+          "latitude": -20.266848,
+          "description": "Detectado: Veículo TOI8I88 CRUZOU e ENTROU na geocerca: Vibra Energia - BAVIT. (Distância atual: 978m)",
+          "longitude": -40.24832
+        },
+        {
+          "longitude": -40.2697824,
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca: Vibra Energia - BAVIT.",
+          "timestamp": "2026-07-20T23:18:32.599Z",
+          "id": "evt_geofence_out_1784589512599973",
+          "type": "GEOFENCE_EXIT",
+          "latitude": -20.2284992
+        },
+        {
+          "timestamp": "2026-07-20T23:18:38.964Z",
+          "type": "GEOFENCE_ENTER",
+          "latitude": -20.2296432,
+          "id": "evt_geofence_in_1784589518964998",
+          "description": "Detectado: Veículo TOI8I88 CRUZOU e ENTROU na geocerca: Vibra Energia - BAVIT. (Distância atual: 3619m)",
+          "longitude": -40.2674624
+        },
+        {
+          "id": "evt_geofence_out_1784589536179747",
+          "type": "GEOFENCE_EXIT",
+          "latitude": -20.2254672,
+          "timestamp": "2026-07-20T23:18:56.179Z",
+          "description": "Detectado: Veículo TOI8I88 SAIU da geocerca: Vibra Energia - BAVIT.",
+          "longitude": -40.2675232
+        },
+        {
+          "longitude": -40.2581856,
+          "description": "Alteração manual de status para: WAITING_UNLOADING",
+          "id": "e_manual_1784590096691",
+          "latitude": -20.2121808,
+          "timestamp": "2026-07-20T23:28:16.691Z",
+          "type": "STATUS_CHANGE"
+        },
+        {
+          "longitude": -40.2581856,
+          "id": "e_manual_1784590105272",
+          "timestamp": "2026-07-20T23:28:25.272Z",
+          "type": "STATUS_CHANGE",
+          "latitude": -20.2121808,
+          "description": "Alteração manual de status para: EN_ROUTE"
+        },
+        {
+          "longitude": -40.2580544,
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5235m).",
+          "timestamp": "2026-07-21T00:11:47.827Z",
+          "latitude": -20.2119792,
+          "id": "evt_geofence_near_1784592707827354",
+          "type": "GEOFENCE_NEAR"
+        },
+        {
+          "longitude": -40.257712,
+          "latitude": -20.2118688,
+          "timestamp": "2026-07-21T10:55:17.076Z",
+          "type": "GEOFENCE_NEAR",
+          "id": "evt_geofence_near_1784631317076365",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5243m)."
+        },
+        {
+          "longitude": -40.257712,
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5243m).",
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-21T10:55:27.574Z",
+          "id": "evt_geofence_near_1784631327574298",
+          "latitude": -20.2118688
+        },
+        {
+          "longitude": -40.258064,
+          "latitude": -20.2117856,
+          "type": "GEOFENCE_NEAR",
+          "timestamp": "2026-07-21T11:09:43.153Z",
+          "id": "evt_geofence_near_1784632183153472",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5257m)."
+        },
+        {
+          "longitude": -40.258064,
+          "timestamp": "2026-07-21T11:12:50.960Z",
+          "id": "evt_geofence_near_1784632370960930",
+          "latitude": -20.2117856,
+          "type": "GEOFENCE_NEAR",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5257m)."
+        },
+        {
+          "longitude": -40.258064,
+          "timestamp": "2026-07-21T11:18:28.831Z",
+          "latitude": -20.2117856,
+          "id": "evt_geofence_near_1784632708831518",
+          "type": "GEOFENCE_NEAR",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5257m)."
+        },
+        {
+          "longitude": -40.258064,
+          "timestamp": "2026-07-21T11:18:36.877Z",
+          "type": "GEOFENCE_NEAR",
+          "latitude": -20.2117856,
+          "id": "evt_geofence_near_1784632716877829",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5257m)."
+        },
+        {
+          "type": "GEOFENCE_NEAR",
+          "latitude": -20.2117856,
+          "timestamp": "2026-07-21T11:22:18.465Z",
+          "id": "evt_geofence_near_1784632938465283",
+          "description": "Alerta de Proximidade: Veículo TOI8I88 está a menos de 2km da geocerca: Vibra Energia - BAVIT (Distância exata: 5257m).",
+          "longitude": -40.258064
+        },
+        {
+          "longitude": -40.258064,
+          "latitude": -20.2117856,
+          "type": "STATUS_CHANGE",
+          "id": "e_manual_1784632952756",
+          "timestamp": "2026-07-21T11:22:32.756Z",
+          "description": "Alteração manual de status para: DELIVERED"
+        }
+      ],
+      "originGeofenceId": "g_1784458122679",
+      "id": "t_1784557583222",
+      "tripNumber": "TRIP-1001",
+      "destinationGeofenceId": "g_1784458157091"
+    }
+  ],
+  "contracts": [
+    {
+      "endDate": "2026-07-31",
+      "status": "ACTIVE",
+      "startDate": "2026-07-21",
+      "id": "c_1784576677349",
+      "volumeM3": 2500,
+      "cnpj": "12.345.678/9994-41",
+      "clientName": "Usina Bom Sucesso"
+    },
+    {
+      "startDate": "2026-07-23",
+      "id": "c_1784811742067",
+      "cnpj": "11.111.111/1111-11",
+      "clientName": "USINA CRV",
+      "volumeM3": 2500,
+      "status": "ACTIVE",
+      "endDate": "2026-07-31"
+    },
+    {
+      "volumeM3": 2500,
+      "clientName": "Usina Boa Vista (Grupo São Martinho)",
+      "cnpj": "22.222.222/2222-22",
+      "id": "c_1784812805167",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-31",
+      "status": "ACTIVE"
+    }
+  ],
+  "maintenanceRecords": [
+    {
+      "date": "2026-07-21T16:44:43.265Z",
+      "id": "m_1784652283265",
+      "description": "Módulo",
+      "createdAt": "2026-07-21T16:44:43.265Z",
+      "status": "IN_PROGRESS",
+      "vehicleId": "real_2019077"
+    },
+    {
+      "vehicleId": "real_1612888",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-07-21T16:53:12.784Z",
+      "description": "Manutenção",
+      "id": "m_1784652792784",
+      "date": "2026-07-21T16:53:12.784Z"
+    },
+    {
+      "releaseDate": "2026-07-21T19:39:41.865Z",
+      "description": "Motor com problema",
+      "id": "m_1784662725458",
+      "date": "2026-07-21T19:38:45.458Z",
+      "vehicleId": "real_1192863",
+      "status": "COMPLETED",
+      "createdAt": "2026-07-21T19:38:45.458Z"
+    }
+  ],
+  "demoMode": false,
+  "sascarUser": "WORKGR",
+  "sascarPass": "sascar",
+  "lastSyncTime": "2026-07-23T20:06:41.615Z",
+  "activeSyncMethod": "obterPacotePosicoes",
+  "sascarIdToPlateMap": [
+    [
+      "805860",
+      "QRB5C44"
+    ],
+    [
+      "897902",
+      "PPN3A01"
+    ],
+    [
+      "1161590",
+      "QRB5C55"
+    ],
+    [
+      "1192863",
+      "PPU6G90"
+    ],
+    [
+      "1200380",
+      "PPI5331"
+    ],
+    [
+      "1203126",
+      "PPX5E02"
+    ],
+    [
+      "1230796",
+      "MQT6873"
+    ],
+    [
+      "1266221",
+      "QRB5C75"
+    ],
+    [
+      "1347567",
+      "QRG6G48"
+    ],
+    [
+      "1365932",
+      "TOK8J01"
+    ],
+    [
+      "1386095",
+      "PPI5D87"
+    ],
+    [
+      "1386096",
+      "PPT4E95"
+    ],
+    [
+      "1466559",
+      "ODA-0824"
+    ],
+    [
+      "1525432",
+      "RBB4H01"
+    ],
+    [
+      "1525433",
+      "RBB4H00"
+    ],
+    [
+      "1588815",
+      "RBF0I75"
+    ],
+    [
+      "1612888",
+      "RQM6J17"
+    ],
+    [
+      "1702228",
+      "RQQ1A08"
+    ],
+    [
+      "1705380",
+      "FYN6H57"
+    ],
+    [
+      "1712175",
+      "RQQ9E33"
+    ],
+    [
+      "1779240",
+      "RBH2B20"
+    ],
+    [
+      "1785018",
+      "RBH5J88"
+    ],
+    [
+      "1799865",
+      "SFP3A37"
+    ],
+    [
+      "1814076",
+      "NVT9989"
+    ],
+    [
+      "1884446",
+      "RVC6J75"
+    ],
+    [
+      "1887660",
+      "JBE5D79"
+    ],
+    [
+      "1909382",
+      "SFT7F30"
+    ],
+    [
+      "1924700",
+      "SFP2C44"
+    ],
+    [
+      "1951816",
+      "RBD5B23"
+    ],
+    [
+      "1954714",
+      "SHE3J04"
+    ],
+    [
+      "1954716",
+      "SHI1A40"
+    ],
+    [
+      "1958211",
+      "RVE4F03"
+    ],
+    [
+      "1989273",
+      "RQO4A51"
+    ],
+    [
+      "1989820",
+      "RQO6C64"
+    ],
+    [
+      "1989821",
+      "RQO5C81"
+    ],
+    [
+      "1990064",
+      "RBH1E72"
+    ],
+    [
+      "2010505",
+      "SFC1A92"
+    ],
+    [
+      "2010506",
+      "SFC1A90"
+    ],
+    [
+      "2010507",
+      "SFC1A91"
+    ],
+    [
+      "2010508",
+      "SEY9F19"
+    ],
+    [
+      "2010509",
+      "SFC1A93"
+    ],
+    [
+      "2019077",
+      "RQQ3H81"
+    ],
+    [
+      "2087000",
+      "TCI4J83"
+    ],
+    [
+      "2087001",
+      "TCI4J79"
+    ],
+    [
+      "2128821",
+      "RQP0D60"
+    ],
+    [
+      "2135235",
+      "SGJ6G09"
+    ],
+    [
+      "2186181",
+      "TOF7C97"
+    ],
+    [
+      "2207592",
+      "OYH8I17"
+    ],
+    [
+      "2237555",
+      "TOL6C25"
+    ],
+    [
+      "2306828",
+      "TOI8I88"
+    ]
+  ],
+  "sascarDriverIdToNameMap": [
+    [
+      "2285056",
+      "NILTON CEZAR MACIEL DOS SANTOS"
+    ],
+    [
+      "2632962",
+      "CHARLES FERREIRA"
+    ],
+    [
+      "2639332",
+      "JOAO GERALDO ALVES"
+    ],
+    [
+      "2708267",
+      "FELIPE DE OLIVEIRA GABLER"
+    ],
+    [
+      "2745697",
+      "CARLOS ALESSANDRO NASCIMENTO"
+    ],
+    [
+      "2872135",
+      "SEBASTIAO REINALDO SOARES"
+    ],
+    [
+      "3167200",
+      "VALDIR COSTA BORGES"
+    ],
+    [
+      "3526401",
+      "TORRE DE CONTROLE TESTE"
+    ],
+    [
+      "3565922",
+      "MAURO SERGIO LOPES"
+    ],
+    [
+      "3598048",
+      "ITAMAR FERREIRA DOS SANTOS"
+    ],
+    [
+      "3623142",
+      "DERNEVAL MACIEL"
+    ],
+    [
+      "3623148",
+      "JOÃO PEREIRA LEMOS"
+    ],
+    [
+      "3623152",
+      "LINDOMAR PORTO"
+    ],
+    [
+      "3627062",
+      "JURANDIR FERREIRA"
+    ],
+    [
+      "3648377",
+      "WAGNER TEIXEIRA"
+    ],
+    [
+      "3649326",
+      "LEYDIANE DE ABREU"
+    ],
+    [
+      "3654651",
+      "JOSE LUIZ FERNANDES"
+    ],
+    [
+      "3656721",
+      "VALTER TOME"
+    ],
+    [
+      "3656980",
+      "JEAN CHARLES"
+    ],
+    [
+      "3675513",
+      "SANZIO LIMA LEONARDO"
+    ],
+    [
+      "3692872",
+      "HUMBERTO CEZAR RHEIN"
+    ],
+    [
+      "3701406",
+      "AFONSO RONALDO"
+    ],
+    [
+      "3744757",
+      "SERGIO JOSE DA SILVA"
+    ],
+    [
+      "3753494",
+      "ELIAS DO NASCIMENTO ROCHA"
+    ],
+    [
+      "3782577",
+      "DOUGLAS DA SILVA ARAUJO"
+    ],
+    [
+      "3808485",
+      "BRUNO RIBEIRO"
+    ],
+    [
+      "3818110",
+      "SERGIO OTACILIO"
+    ],
+    [
+      "3819498",
+      "PAULO ZAMPILI"
+    ],
+    [
+      "3827974",
+      "SAMUEL RAMOS"
+    ],
+    [
+      "3835599",
+      "MARCIO HENRIQUE DA SILVA CYPRIANO"
+    ],
+    [
+      "3865550",
+      "GEOVANE FERREIRA CAMPOS"
+    ],
+    [
+      "3866029",
+      "MAURICIO JORGE MELO"
+    ],
+    [
+      "3866399",
+      "ALVARO  PESSANHA BIAZINI"
+    ],
+    [
+      "3866506",
+      "MARCOS PAULO GONCALVES CARNEIRO"
+    ],
+    [
+      "3867869",
+      "FELIPE MOCO PRATA"
+    ],
+    [
+      "3868163",
+      "ANDRE  CUNHA DOS SANTOS"
+    ],
+    [
+      "3870255",
+      "RICARDO LUIZ DE CARVALHO"
+    ],
+    [
+      "3871081",
+      "JOSELISON LUIZ MOREIRA"
+    ],
+    [
+      "3871648",
+      "LUIZ ANTONIO ROZA"
+    ],
+    [
+      "3877966",
+      "EDSON FLORENCIO DA SILVA"
+    ],
+    [
+      "3893244",
+      "EDINILSON PEREIRA DOS SANTOS"
+    ],
+    [
+      "3893777",
+      "DJAIR DIAS DA SILVA"
+    ],
+    [
+      "3894161",
+      "RICARDO CABRAL MACHADO DOS SANTOS"
+    ],
+    [
+      "3895944",
+      "MESSIAS MILTON BERMOND"
+    ],
+    [
+      "3895947",
+      "DENIS VICENTE SIQUEIRA"
+    ],
+    [
+      "3897606",
+      "ANDRE ALVES DA SILVA"
+    ],
+    [
+      "3897724",
+      "GELSON MENDONCA"
+    ],
+    [
+      "3898255",
+      "CARLOS ALEXANDRE CYPRIANO DE SOUZA"
+    ],
+    [
+      "3898650",
+      "FELIPE CONSTANTINO DE MELO"
+    ],
+    [
+      "3906174",
+      "MARCO ANTONIO GASPAR"
+    ],
+    [
+      "3908538",
+      "CLAUDIO HENRIQUE FARIA FERNANDES"
+    ],
+    [
+      "3908855",
+      "MARCELO ALVES DIAS"
+    ],
+    [
+      "3910476",
+      "SALAZARES GRACIANO CAMPISTA"
+    ],
+    [
+      "3910478",
+      "MATERSON SOUZA SANTOS"
+    ],
+    [
+      "3914917",
+      "ADILSON FERREIRA DE MELO"
+    ],
+    [
+      "3915000",
+      "VINICIUS BASTOS RAIMUNDO"
+    ],
+    [
+      "3915558",
+      "ESTEFFANI FREITAS NOGUEIRA CONCEICAO"
+    ],
+    [
+      "3920305",
+      "ANDRE ALVES DA SILVA"
+    ],
+    [
+      "3920306",
+      "GELSON MENDONÇA DA SILVA"
+    ],
+    [
+      "3922372",
+      "Rodrigo croce barcelos"
+    ],
+    [
+      "3923734",
+      "GIVANILDO ROCHA DE SOUZA"
+    ],
+    [
+      "3925362",
+      "Carlos Alberto shiavon"
+    ],
+    [
+      "3929578",
+      "CARLOS EDUARDO DA SILVA"
+    ],
+    [
+      "3936744",
+      "KERVIN JESUS ZERPA CASTILLO"
+    ],
+    [
+      "3937669",
+      "IVA BUENO NASCIMENTO"
+    ],
+    [
+      "3939057",
+      "GILMARQUES CASTRO OLIVEIRA"
+    ],
+    [
+      "3939294",
+      "NATAN MOREIRA DA CRUZ"
+    ],
+    [
+      "3939519",
+      "GUILHERME CRISTIAN LOPES DO COUTO"
+    ],
+    [
+      "3940219",
+      "ROBSON MARQUES DA SILVA"
+    ],
+    [
+      "3942488",
+      "LUDIO BASTOS DE ALMEIDA"
+    ],
+    [
+      "3944165",
+      "GEOVANI DA CONCEICAO COSTA"
+    ],
+    [
+      "3946531",
+      "CARLOS ROBERTO FRANCELINO DE JESUS"
+    ]
+  ],
+  "sascarVehicleIdToDriverIdMap": [
+    [
+      "897902",
+      "3870255"
+    ],
+    [
+      "1192863",
+      "3895944"
+    ],
+    [
+      "1200380",
+      "3940219"
+    ],
+    [
+      "1266221",
+      "3910478"
+    ],
+    [
+      "1347567",
+      "3893244"
+    ],
+    [
+      "1365932",
+      "2632962"
+    ],
+    [
+      "1386095",
+      "3598048"
+    ],
+    [
+      "1386096",
+      "3895944"
+    ],
+    [
+      "1525432",
+      "3946531"
+    ],
+    [
+      "1525433",
+      "3910478"
+    ],
+    [
+      "1588815",
+      "3627062"
+    ],
+    [
+      "1612888",
+      "3835599"
+    ],
+    [
+      "1702228",
+      "3895944"
+    ],
+    [
+      "1705380",
+      "3939519"
+    ],
+    [
+      "1779240",
+      "3895944"
+    ],
+    [
+      "1785018",
+      "3893777"
+    ],
+    [
+      "1799865",
+      "3866506"
+    ],
+    [
+      "1884446",
+      "3648377"
+    ],
+    [
+      "1887660",
+      "3895944"
+    ],
+    [
+      "1909382",
+      "3675513"
+    ],
+    [
+      "1924700",
+      "3942488"
+    ],
+    [
+      "1951816",
+      "3895944"
+    ],
+    [
+      "1954714",
+      "3893777"
+    ],
+    [
+      "1954716",
+      "3936744"
+    ],
+    [
+      "1958211",
+      "3895944"
+    ],
+    [
+      "1989820",
+      "3895944"
+    ],
+    [
+      "2010505",
+      "2285056"
+    ],
+    [
+      "2010506",
+      "3895944"
+    ],
+    [
+      "2010507",
+      "3940219"
+    ],
+    [
+      "2010509",
+      "3701406"
+    ],
+    [
+      "2019077",
+      "3819498"
+    ],
+    [
+      "2087000",
+      "3915000"
+    ],
+    [
+      "2128821",
+      "3782577"
+    ],
+    [
+      "2135235",
+      "3895944"
+    ],
+    [
+      "2186181",
+      "3895944"
+    ],
+    [
+      "2207592",
+      "3895944"
+    ],
+    [
+      "2237555",
+      "3692872"
+    ],
+    [
+      "2306828",
+      "2285056"
+    ]
+  ],
+  "manualDriverNamesMap": [
+    [
+      "real_1702228",
+      "FELIPE GABLER"
+    ],
+    [
+      "real_1779240",
+      "MARCIO HENRIQUE DA SILVA CYPRIANO"
+    ],
+    [
+      "FZB3H62",
+      "SERGIO OTACILIO"
+    ],
+    [
+      "real_2010505",
+      "VALDIR"
+    ],
+    [
+      "RMO2J80",
+      "ITALO"
+    ],
+    [
+      "real_1989273",
+      "SANZIO LEONARDO"
+    ],
+    [
+      "real_2186181",
+      "ELIAS NASCIMENTO"
+    ],
+    [
+      "real_1705380",
+      "GUILHERME CRISTIAN LOPES DO COUTO"
+    ],
+    [
+      "CUF6F40",
+      "GILLIARD"
+    ],
+    [
+      "real_1799865",
+      "MARCOS PAULO"
+    ],
+    [
+      "RQQ1A08",
+      "FELIPE GABLER"
+    ],
+    [
+      "real_1588815",
+      "WAGNER"
+    ],
+    [
+      "TOI8I88",
+      "NILTON CEZAR MACIEL DOS SANTOS"
+    ],
+    [
+      "MQT6873",
+      "ALVARO  PESSANHA BIAZINI"
+    ],
+    [
+      "RQO4A51",
+      "SANZIO LEONARDO"
+    ],
+    [
+      "SFC1A91",
+      "FABIO JUNIOR"
+    ],
+    [
+      "real_2135235",
+      "SEBASTIAO REINALDO"
+    ],
+    [
+      "real_1785018",
+      "DJAIR DIAS DA SILVA"
+    ],
+    [
+      "real_2306828",
+      "NILTON CEZAR MACIEL DOS SANTOS"
+    ],
+    [
+      "real_2087000",
+      "VINICIUS BASTOS RAIMUNDO"
+    ],
+    [
+      "real_2019077",
+      "PAULO ZAMPILI"
+    ],
+    [
+      "QRG6G48",
+      "ANDRE FERNANDES VAZ"
+    ],
+    [
+      "TOL6C25",
+      "HUMBERTO CEZAR RHEIN"
+    ],
+    [
+      "real_1347567",
+      "ANDRE FERNANDES VAZ"
+    ],
+    [
+      "v_1784575376688",
+      "SERGIO OTACILIO"
+    ],
+    [
+      "real_1612888",
+      "MARCIO HENRIQUE DA SILVA CYPRIANO"
+    ],
+    [
+      "SFC1A93",
+      "PAULO ZAMPILI"
+    ],
+    [
+      "RVE4F03",
+      "JOÃO LEMOS"
+    ],
+    [
+      "real_1200380",
+      "ROBSON MARQUES DA SILVA"
+    ],
+    [
+      "SHE3J04",
+      "AGAILSON"
+    ],
+    [
+      "RBH5J88",
+      "DJAIR DIAS DA SILVA"
+    ],
+    [
+      "real_2010507",
+      "FABIO JUNIOR"
+    ],
+    [
+      "v_1784652885245",
+      "GILLIARD"
+    ],
+    [
+      "PPI5331",
+      "ROBSON MARQUES DA SILVA"
+    ],
+    [
+      "real_1230796",
+      "ALVARO  PESSANHA BIAZINI"
+    ],
+    [
+      "RQQ3H81",
+      "PAULO ZAMPILI"
+    ],
+    [
+      "real_2087001",
+      "DENERVAL"
+    ],
+    [
+      "real_2010509",
+      "PAULO ZAMPILI"
+    ],
+    [
+      "SFC1A92",
+      "VALDIR"
+    ],
+    [
+      "RQM6J17",
+      "MARCIO HENRIQUE DA SILVA CYPRIANO"
+    ],
+    [
+      "SGJ6G09",
+      "SEBASTIAO REINALDO"
+    ],
+    [
+      "real_1954714",
+      "AGAILSON"
+    ],
+    [
+      "real_1958211",
+      "JOÃO LEMOS"
+    ],
+    [
+      "FYN6H57",
+      "GUILHERME CRISTIAN LOPES DO COUTO"
+    ],
+    [
+      "TCI4J83",
+      "VINICIUS BASTOS RAIMUNDO"
+    ],
+    [
+      "RBF0I75",
+      "WAGNER"
+    ],
+    [
+      "TOF7C97",
+      "ELIAS NASCIMENTO"
+    ],
+    [
+      "TCI4J79",
+      "DENERVAL"
+    ],
+    [
+      "RBH2B20",
+      "MARCIO HENRIQUE DA SILVA CYPRIANO"
+    ],
+    [
+      "real_2237555",
+      "HUMBERTO CEZAR RHEIN"
+    ],
+    [
+      "SFP3A37",
+      "MARCOS PAULO"
+    ],
+    [
+      "v_1784662061678",
+      "ITALO"
+    ]
+  ],
+  "isFirestoreQuotaExceeded": false,
+  "firestoreQuotaExceededUntil": 0
+}
