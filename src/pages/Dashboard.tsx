@@ -6,6 +6,7 @@ import {
   MapPin,
   Navigation,
   AlertTriangle,
+  AlertCircle,
   CheckCircle2,
   Play,
   RefreshCw,
@@ -59,8 +60,13 @@ export default function Dashboard({
   const [isSavingLocation, setIsSavingLocation] = useState<boolean>(false);
   const [selectedContractId, setSelectedContractId] = useState<string>('');
   const [cteModalTrip, setCteModalTrip] = useState<Trip | null>(null);
+  const [unloadedChoice, setUnloadedChoice] = useState<Record<string, 'SIM' | 'NAO' | null>>({});
 
-  const activeTripsList = trips.filter(t => t.status !== 'DELIVERED');
+  const visibleVehicles = useMemo(() => vehicles.filter(v => v.visibleOnMap !== false), [vehicles]);
+
+  const activeTripsList = trips.filter(
+    t => t.status !== 'DELIVERED' && vehicles.find(v => v.id === t.vehicleId)?.visibleOnMap !== false
+  );
   const filteredActiveTripsList = activeTripsList.filter(t => {
     if (!selectedContractId) return true;
     return t.contractId === selectedContractId;
@@ -97,7 +103,7 @@ export default function Dashboard({
   // Map each vehicle to its current active stage
   const vehicleStageMap = useMemo(() => {
     const map = new Map<string, string>();
-    vehicles.forEach(v => {
+    visibleVehicles.forEach(v => {
       const activeTrip = trips.find(
         t => t.vehicleId === v.id && t.status !== 'DELIVERED' && (!selectedContractId || t.contractId === selectedContractId)
       );
@@ -108,7 +114,7 @@ export default function Dashboard({
       }
     });
     return map;
-  }, [vehicles, trips, selectedContractId]);
+  }, [visibleVehicles, trips, selectedContractId]);
 
   // Counts per status stage
   const stageCounts = useMemo(() => {
@@ -120,14 +126,14 @@ export default function Dashboard({
       WAITING_UNLOADING: 0,
       AVAILABLE: 0,
     };
-    vehicles.forEach(v => {
+    visibleVehicles.forEach(v => {
       const stage = vehicleStageMap.get(v.id) || 'AVAILABLE';
       if (stage in counts) {
         counts[stage as keyof typeof counts]++;
       }
     });
     return counts;
-  }, [vehicles, vehicleStageMap]);
+  }, [visibleVehicles, vehicleStageMap]);
 
   // Status cards configuration
   const statusCards = useMemo(() => [
@@ -207,7 +213,7 @@ export default function Dashboard({
 
   // Vehicles with active trips stopped for > 30 mins (Control Tower Alert)
   const stoppedAlertVehicleIds = useMemo(() => {
-    const stoppedOver30 = vehicles.filter(v => {
+    const stoppedOver30 = visibleVehicles.filter(v => {
       if (v.speed > 0) return false;
 
       // Only show vehicles that currently have an active trip (not delivered)
@@ -383,8 +389,8 @@ export default function Dashboard({
   // Vehicles available list when 'AVAILABLE' status card is clicked
   const availableVehiclesList = useMemo(() => {
     if (selectedStatusFilter !== 'AVAILABLE') return [];
-    return vehicles.filter(v => vehicleStageMap.get(v.id) === 'AVAILABLE');
-  }, [vehicles, vehicleStageMap, selectedStatusFilter]);
+    return visibleVehicles.filter(v => vehicleStageMap.get(v.id) === 'AVAILABLE');
+  }, [visibleVehicles, vehicleStageMap, selectedStatusFilter]);
 
   const currentFilterTitle = useMemo(() => {
     if (!selectedStatusFilter) return null;
@@ -681,6 +687,96 @@ export default function Dashboard({
         >
           MANUTENÇÃO
         </span>
+      );
+    }
+
+    if (trip.status === 'WAITING_UNLOADING' && trip.hasExitedDest) {
+      const choice = unloadedChoice[trip.id];
+      const hasCte = Boolean(trip.cteInfo);
+
+      return (
+        <div className="bg-[#18112e] border border-purple-500/50 p-2 rounded-xl flex flex-col gap-1.5 shadow-xl animate-fade-in text-left min-w-[185px] max-w-[210px] my-0.5">
+          <div className="flex items-center gap-1 text-purple-300 font-bold text-[9px] uppercase tracking-wider">
+            <AlertCircle size={12} className="text-purple-400 shrink-0 animate-pulse" />
+            <span>Saída de Destino</span>
+          </div>
+          <p className="text-[11px] font-bold text-white leading-tight">Descarregado com sucesso?</p>
+          
+          <div className="flex items-center gap-1 bg-[#0a0e1a] p-1 rounded-lg border border-[#1f2d45]">
+            <button
+              type="button"
+              onClick={() => setUnloadedChoice(prev => ({ ...prev, [trip.id]: 'SIM' }))}
+              className={`flex-1 py-1 px-2 rounded text-[10px] font-bold transition flex items-center justify-center gap-1 cursor-pointer ${
+                choice === 'SIM'
+                  ? 'bg-emerald-600 text-white shadow'
+                  : 'bg-slate-800 hover:bg-emerald-500/20 text-slate-300 hover:text-emerald-400 border border-slate-700/60'
+              }`}
+            >
+              <Check size={11} />
+              SIM
+            </button>
+            
+            <button
+              type="button"
+              onClick={async () => {
+                setUnloadedChoice(prev => ({ ...prev, [trip.id]: null }));
+                if (onUpdateStatus) {
+                  await onUpdateStatus(trip.id, 'EN_ROUTE');
+                }
+              }}
+              className={`flex-1 py-1 px-2 rounded text-[10px] font-bold transition flex items-center justify-center gap-1 cursor-pointer ${
+                choice === 'NAO'
+                  ? 'bg-rose-600 text-white shadow'
+                  : 'bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 border border-slate-700/60'
+              }`}
+              title="Reabrir viagem no status Em Trânsito"
+            >
+              <X size={11} />
+              NÃO
+            </button>
+          </div>
+
+          {choice === 'SIM' && (
+            <div className="flex flex-col gap-1 mt-0.5 animate-fade-in">
+              {hasCte ? (
+                <button
+                  type="button"
+                  onClick={async () => {
+                    if (onUpdateStatus) {
+                      await onUpdateStatus(trip.id, 'DELIVERED');
+                    }
+                  }}
+                  className="w-full bg-emerald-600 hover:bg-emerald-500 text-white text-[10px] font-bold py-1.5 px-2 rounded-lg transition flex items-center justify-center gap-1 shadow-md cursor-pointer"
+                >
+                  <Check size={12} />
+                  CONCLUIR VIAGEM
+                </button>
+              ) : (
+                <div className="flex flex-col gap-1 bg-amber-500/10 border border-amber-500/30 p-1.5 rounded-lg text-left">
+                  <button
+                    type="button"
+                    disabled
+                    className="w-full bg-slate-800 text-slate-500 border border-slate-700/60 text-[10px] font-bold py-1 px-2 rounded-lg flex items-center justify-center gap-1 cursor-not-allowed opacity-60"
+                    title="Necessário preencher o CT-e para concluir"
+                  >
+                    <Check size={12} />
+                    CONCLUIR (Bloqueado)
+                  </button>
+                  <div className="flex items-center justify-between text-[9px] text-amber-300 font-medium pt-0.5">
+                    <span>⚠️ Requer CT-e</span>
+                    <button
+                      type="button"
+                      onClick={() => setCteModalTrip(trip)}
+                      className="text-sky-400 hover:underline font-bold ml-1 cursor-pointer"
+                    >
+                      Lançar CT-e
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       );
     }
 

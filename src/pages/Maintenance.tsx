@@ -50,9 +50,9 @@ export default function Maintenance({
     return vehicles.filter(v => v.status === 'MAINTENANCE');
   }, [vehicles]);
 
-  // Filter vehicles that are available to be put in maintenance (all except those currently in maintenance)
+  // Filter vehicles that are available to be put in maintenance (all except those currently in maintenance or hidden)
   const availableToMaintenance = useMemo(() => {
-    return vehicles.filter(v => v.status !== 'MAINTENANCE');
+    return vehicles.filter(v => v.status !== 'MAINTENANCE' && v.visibleOnMap !== false);
   }, [vehicles]);
 
   // Filtered maintenance list for search

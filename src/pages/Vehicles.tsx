@@ -24,6 +24,7 @@ interface VehiclesProps {
 
 type StatusFilter = 'ALL' | 'EN_ROUTE' | 'AVAILABLE' | 'MAINTENANCE' | 'ALERT';
 type TelemetryFilter = 'ALL' | 'SASCAR' | 'NO_TELEMETRY';
+type VisibilityFilter = 'VISIBLE_ONLY' | 'HIDDEN_ONLY' | 'ALL';
 
 export default function Vehicles({
   vehicles,
@@ -50,6 +51,7 @@ export default function Vehicles({
   // Filters state
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('ALL');
   const [telemetryFilter, setTelemetryFilter] = useState<TelemetryFilter>('ALL');
+  const [visibilityFilter, setVisibilityFilter] = useState<VisibilityFilter>('VISIBLE_ONLY');
   const [searchTerm, setSearchTerm] = useState('');
   const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
 
@@ -65,16 +67,22 @@ export default function Vehicles({
 
   // KPI Calculations
   const totalVehicles = vehicles.length;
-  const countAvailable = useMemo(() => vehicles.filter(v => v.status === 'AVAILABLE').length, [vehicles]);
-  const countEnRoute = useMemo(() => vehicles.filter(v => v.status === 'EN_ROUTE').length, [vehicles]);
-  const countMaintenance = useMemo(() => vehicles.filter(v => v.status === 'MAINTENANCE').length, [vehicles]);
-  const countAlert = useMemo(() => vehicles.filter(v => v.status === 'ALERT').length, [vehicles]);
-  const countSascar = useMemo(() => vehicles.filter(v => isSascarVehicle(v)).length, [vehicles]);
-  const countNoTelemetry = useMemo(() => vehicles.filter(v => !isSascarVehicle(v)).length, [vehicles]);
+  const countVisible = useMemo(() => vehicles.filter(v => v.visibleOnMap !== false).length, [vehicles]);
+  const countHidden = useMemo(() => vehicles.filter(v => v.visibleOnMap === false).length, [vehicles]);
+  const countAvailable = useMemo(() => vehicles.filter(v => v.status === 'AVAILABLE' && v.visibleOnMap !== false).length, [vehicles]);
+  const countEnRoute = useMemo(() => vehicles.filter(v => v.status === 'EN_ROUTE' && v.visibleOnMap !== false).length, [vehicles]);
+  const countMaintenance = useMemo(() => vehicles.filter(v => v.status === 'MAINTENANCE' && v.visibleOnMap !== false).length, [vehicles]);
+  const countAlert = useMemo(() => vehicles.filter(v => v.status === 'ALERT' && v.visibleOnMap !== false).length, [vehicles]);
+  const countSascar = useMemo(() => vehicles.filter(v => isSascarVehicle(v) && v.visibleOnMap !== false).length, [vehicles]);
+  const countNoTelemetry = useMemo(() => vehicles.filter(v => !isSascarVehicle(v) && v.visibleOnMap !== false).length, [vehicles]);
 
   // Filtered vehicles list
   const filteredVehicles = useMemo(() => {
     return vehicles.filter(v => {
+      // Visibility Filter (default to VISIBLE_ONLY)
+      if (visibilityFilter === 'VISIBLE_ONLY' && v.visibleOnMap === false) return false;
+      if (visibilityFilter === 'HIDDEN_ONLY' && v.visibleOnMap !== false) return false;
+
       // Status Filter
       if (statusFilter === 'EN_ROUTE' && v.status !== 'EN_ROUTE') return false;
       if (statusFilter === 'AVAILABLE' && v.status !== 'AVAILABLE') return false;
@@ -97,7 +105,7 @@ export default function Vehicles({
 
       return true;
     });
-  }, [vehicles, statusFilter, telemetryFilter, searchTerm]);
+  }, [vehicles, visibilityFilter, statusFilter, telemetryFilter, searchTerm]);
 
   // Filtered vehicles list for reports (excluding hidden on map)
   const reportVehicles = useMemo(() => {
@@ -641,6 +649,7 @@ export default function Vehicles({
   const handleResetFilters = () => {
     setStatusFilter('ALL');
     setTelemetryFilter('ALL');
+    setVisibilityFilter('VISIBLE_ONLY');
     setSearchTerm('');
   };
 
@@ -831,8 +840,22 @@ export default function Vehicles({
             ))}
           </div>
 
-          {/* Telemetry Filter & Reset */}
+          {/* Telemetry Filter & Visibility Filter & Reset */}
           <div className="flex flex-wrap items-center gap-2">
+            <div className="flex items-center gap-1.5 text-xs bg-[#0a0e1a] border border-[#1f2d45] px-2.5 py-1 rounded-lg">
+              {visibilityFilter === 'HIDDEN_ONLY' ? <EyeOff size={13} className="text-amber-400" /> : <Eye size={13} className="text-sky-400" />}
+              <label className="text-[10px] font-bold text-slate-400 uppercase">Exibição:</label>
+              <select
+                value={visibilityFilter}
+                onChange={e => setVisibilityFilter(e.target.value as VisibilityFilter)}
+                className="bg-transparent text-white text-xs font-semibold focus:outline-none cursor-pointer"
+              >
+                <option value="VISIBLE_ONLY" className="bg-[#111827]">Apenas Visíveis no Sistema ({countVisible})</option>
+                <option value="HIDDEN_ONLY" className="bg-[#111827]">Ocultos no Mapa ({countHidden})</option>
+                <option value="ALL" className="bg-[#111827]">Todos os Veículos ({totalVehicles})</option>
+              </select>
+            </div>
+
             <div className="flex items-center gap-1.5 text-xs bg-[#0a0e1a] border border-[#1f2d45] px-2.5 py-1 rounded-lg">
               <Radio size={13} className="text-indigo-400" />
               <label className="text-[10px] font-bold text-slate-400 uppercase">Telemetria SASCAR:</label>
@@ -847,7 +870,7 @@ export default function Vehicles({
               </select>
             </div>
 
-            {(statusFilter !== 'ALL' || telemetryFilter !== 'ALL' || searchTerm) && (
+            {(statusFilter !== 'ALL' || telemetryFilter !== 'ALL' || visibilityFilter !== 'VISIBLE_ONLY' || searchTerm) && (
               <button
                 type="button"
                 onClick={handleResetFilters}

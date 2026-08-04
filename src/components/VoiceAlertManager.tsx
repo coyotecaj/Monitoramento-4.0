@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import { Volume2, VolumeX, AlertCircle, Play, CheckCircle2, Navigation, Bell, Megaphone } from 'lucide-react';
 import { Vehicle, Geofence, Trip } from '../types';
 import { isPointInPolygon } from '../utils/geometry';
@@ -357,12 +357,14 @@ export default function VoiceAlertManager({ vehicles, geofences, trips }: VoiceA
   // Keep track of previous vehicle statuses to trigger alerts on maintenance changes
   const prevVehicleStatusesRef = useRef<Record<string, string>>({});
 
+  const visibleVehicles = useMemo(() => vehicles.filter(v => v.visibleOnMap !== false), [vehicles]);
+
   useEffect(() => {
-    if (vehicles.length === 0) return;
+    if (visibleVehicles.length === 0) return;
 
     const isAppStartup = Date.now() - mountTimeRef.current < 3000;
 
-    vehicles.forEach(vehicle => {
+    visibleVehicles.forEach(vehicle => {
       const prevStatus = prevVehicleStatusesRef.current[vehicle.id];
 
       if (prevStatus !== undefined && prevStatus !== vehicle.status) {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Vehicle, Driver, Geofence, Trip, Coordinate, CteInfo, Product, Contract } from '../types';
 import MapComponent from '../components/MapComponent';
 import { VehicleSpeedCell } from '../components/VehicleSpeedCell';
@@ -11,6 +11,7 @@ import {
   AlertCircle,
   FileText,
   CheckCircle,
+  XCircle,
   RefreshCw,
   Layers,
   Clock,
@@ -345,54 +346,90 @@ export default function Trips({
 
   const renderUnloadedPrompt = (trip: Trip) => {
     const choice = unloadedChoice[trip.id];
+    const hasCte = Boolean(trip.cteInfo);
 
     return (
-      <div className="bg-[#18112e] border border-purple-500/50 p-2.5 rounded-lg flex flex-col gap-2 shadow-xl animate-fade-in my-1 text-left w-full max-w-xs">
+      <div className="bg-[#18112e] border border-purple-500/50 p-2.5 rounded-xl flex flex-col gap-2 shadow-xl animate-fade-in my-1 text-left w-full max-w-xs">
         <div className="flex items-center gap-1.5 text-purple-300 font-bold text-[10px] uppercase tracking-wider">
           <AlertCircle size={13} className="text-purple-400 shrink-0 animate-pulse" />
           <span>Saída do Destino Detectada</span>
         </div>
         <p className="text-xs font-bold text-white leading-tight">Descarregado com sucesso?</p>
         
-        <div className="flex items-center gap-4 bg-[#0a0e1a] px-2.5 py-1.5 rounded border border-[#1f2d45]">
-          <label className="flex items-center gap-1.5 cursor-pointer text-xs font-bold hover:text-emerald-400 transition">
-            <input
-              type="radio"
-              name={`unloaded_choice_${trip.id}`}
-              value="SIM"
-              checked={choice === 'SIM'}
-              onChange={() => setUnloadedChoice(prev => ({ ...prev, [trip.id]: 'SIM' }))}
-              className="accent-emerald-500 w-4 h-4 cursor-pointer"
-            />
-            <span className={choice === 'SIM' ? 'text-emerald-400 font-bold' : 'text-slate-300'}>SIM</span>
-          </label>
+        <div className="flex items-center gap-2 bg-[#0a0e1a] p-1.5 rounded-lg border border-[#1f2d45]">
+          <button
+            type="button"
+            onClick={() => setUnloadedChoice(prev => ({ ...prev, [trip.id]: 'SIM' }))}
+            className={`flex-1 py-1 px-2.5 rounded text-xs font-bold transition flex items-center justify-center gap-1 cursor-pointer ${
+              choice === 'SIM'
+                ? 'bg-emerald-600 text-white shadow'
+                : 'bg-slate-800 hover:bg-emerald-500/20 text-slate-300 hover:text-emerald-400 border border-slate-700/60'
+            }`}
+          >
+            <CheckCircle size={13} />
+            SIM
+          </button>
           
-          <label className="flex items-center gap-1.5 cursor-pointer text-xs font-bold hover:text-rose-400 transition">
-            <input
-              type="radio"
-              name={`unloaded_choice_${trip.id}`}
-              value="NAO"
-              checked={choice === 'NAO'}
-              onChange={() => {
-                setUnloadedChoice(prev => ({ ...prev, [trip.id]: 'NAO' }));
-                onUpdateStatus(trip.id, 'EN_ROUTE');
-              }}
-              className="accent-rose-500 w-4 h-4 cursor-pointer"
-            />
-            <span className={choice === 'NAO' ? 'text-rose-400 font-bold' : 'text-slate-300'}>NÃO</span>
-          </label>
+          <button
+            type="button"
+            onClick={() => {
+              setUnloadedChoice(prev => ({ ...prev, [trip.id]: null }));
+              onUpdateStatus(trip.id, 'EN_ROUTE');
+            }}
+            className={`flex-1 py-1 px-2.5 rounded text-xs font-bold transition flex items-center justify-center gap-1 cursor-pointer ${
+              choice === 'NAO'
+                ? 'bg-rose-600 text-white shadow'
+                : 'bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 border border-slate-700/60'
+            }`}
+            title="Reabrir viagem no status Em Trânsito"
+          >
+            <XCircle size={13} />
+            NÃO
+          </button>
         </div>
 
         {choice === 'SIM' && (
-          <button
-            onClick={() => {
-              onUpdateStatus(trip.id, 'DELIVERED');
-            }}
-            className="w-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold py-1.5 px-3 rounded-lg transition flex items-center justify-center gap-1.5 shadow-md cursor-pointer"
-          >
-            <CheckCircle size={14} />
-            CONCLUIR
-          </button>
+          <div className="flex flex-col gap-1.5 mt-1 animate-fade-in">
+            {hasCte ? (
+              <button
+                type="button"
+                onClick={() => {
+                  setCompletingTripId(trip.id);
+                  setCompletionVolumeM3(trip.cteInfo?.volume?.toString() || trip.loadedVolumeM3?.toString() || '');
+                }}
+                className="w-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold py-1.5 px-3 rounded-lg transition flex items-center justify-center gap-1.5 shadow-md cursor-pointer"
+              >
+                <CheckCircle size={14} />
+                CONCLUIR
+              </button>
+            ) : (
+              <div className="flex flex-col gap-1 bg-amber-500/10 border border-amber-500/30 p-2 rounded-lg text-left">
+                <button
+                  type="button"
+                  disabled
+                  className="w-full bg-slate-800 text-slate-500 border border-slate-700/60 text-xs font-bold py-1.5 px-3 rounded-lg flex items-center justify-center gap-1.5 cursor-not-allowed opacity-60"
+                  title="Necessário preencher o CT-e para concluir"
+                >
+                  <CheckCircle size={14} />
+                  CONCLUIR (Bloqueado)
+                </button>
+                <div className="flex items-center justify-between text-[10px] text-amber-300 font-medium pt-0.5">
+                  <span>⚠️ Requer CT-e preenchido.</span>
+                  <a
+                    href={`#cte-card-${trip.id}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const el = document.getElementById(`cte-card-${trip.id}`) || document.getElementById(`cte-card-compact-${trip.id}`);
+                      if (el) el.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="text-sky-400 hover:underline font-bold ml-1 cursor-pointer"
+                  >
+                    Lançar CT-e
+                  </a>
+                </div>
+              </div>
+            )}
+          </div>
         )}
       </div>
     );
@@ -413,7 +450,8 @@ export default function Trips({
   const destGeofences = geofences.filter(g => g.type === 'DESTINATION');
 
   // Filtered lists
-  const activeTrips = trips.filter(t => t.status !== 'DELIVERED');
+  const visibleVehicles = useMemo(() => vehicles.filter(v => v.visibleOnMap !== false), [vehicles]);
+  const activeTrips = trips.filter(t => t.status !== 'DELIVERED' && vehicles.find(v => v.id === t.vehicleId)?.visibleOnMap !== false);
   const rawCompletedTrips = trips.filter(t => t.status === 'DELIVERED');
 
   const filteredActiveTrips = activeTrips.filter(t => {
@@ -1073,7 +1111,7 @@ export default function Trips({
                                               onChange={e => setEditVehicleId(e.target.value)}
                                               className="w-full bg-[#0a0e1a] border border-[#1f2d45] rounded p-1 text-slate-200 mt-0.5"
                                             >
-                                              {vehicles.map(v => (
+                                              {vehicles.filter(v => v.visibleOnMap !== false || v.id === editVehicleId).map(v => (
                                                 <option key={v.id} value={v.id}>{v.licensePlate} - {v.model}</option>
                                               ))}
                                             </select>
@@ -1520,7 +1558,7 @@ export default function Trips({
                                 onChange={e => setEditVehicleId(e.target.value)}
                                 className="bg-[#0a0e1a] border border-[#1f2d45] rounded px-1.5 py-0.5 text-xs text-slate-200 focus:outline-none focus:border-sky-500/50 font-semibold w-full mt-0.5"
                               >
-                                {vehicles.map(v => (
+                                {vehicles.filter(v => v.visibleOnMap !== false || v.id === editVehicleId).map(v => (
                                   <option key={v.id} value={v.id}>
                                     {v.licensePlate} - {v.model}
                                   </option>
@@ -2144,7 +2182,7 @@ export default function Trips({
                   required
                 >
                   <option value="">Selecione um caminhão...</option>
-                  {vehicles.map(v => (
+                  {visibleVehicles.map(v => (
                     <option key={v.id} value={v.id} disabled={v.status === 'MAINTENANCE'}>
                       {v.licensePlate} - {v.model} {v.status === 'MAINTENANCE' ? '(EM MANUTENÇÃO)' : ''}
                     </option>
